@@ -79,7 +79,7 @@ self.instr_ids += ['%d_%d_%d' % (item['path_id'],item['objId'],i) for i in range
 ```
 + To get the Remote Grounding Success Rate in the eval.py file, you need to implement the method to read the predicted object id from your results file. And then compare it against the 'objId' in the \_score_item() function.
 ## Acknowledgements
-We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). We also thank [Sam Bahrami](sam.bahrami@adelaide.edu.au), [Philip Roberts](philip.roberts@adelaide.edu.au), [Zheng Liu](), and [Zizheng Pan](zizheng.pan@student.adelaide.edu.au) for their great help in building the dataset.
+We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). We also thank [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/), [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](), and [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au) for their great help in building the dataset.
 ## Reference
 The REVERIE task and dataset are descriped in:
 ```

@@ -62,6 +62,7 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
     "833": {
        ...
     },
+    ...
   }
 }
 ```

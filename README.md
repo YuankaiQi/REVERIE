@@ -1,5 +1,5 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
-Here are the pre-relased data.
+Here are the pre-relased data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
 </div>
@@ -66,6 +66,8 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
 }
 ```
 ## Integrating into Your Project
++ If you are new to this task, we recommend to first review the VLN task by [Self-Monitor](https://github.com/chihyaoma/selfmonitoring-agent), which helps you set up the R2R simulator. And then conduct the following instructions.
+
 The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction
 ## Note
 + We modify the method to load dataset, see **load_datasets_REVERIE()** in utils.py
@@ -76,3 +78,16 @@ self.instr_ids += ['%d_%d_%d' % (item['path_id'],item['objId'],i) for i in range
 
 ```
 + To get the Remote Grounding Success Rate in the eval.py file, you need to implement the method to read the predicted object id from your results file. And then compare it against the 'objId' in the \_score_item() function.
+## Acknowledgements
+We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). We also thank [Sam Bahrami](sam.bahrami@adelaide.edu.au), [Philip Roberts](philip.roberts@adelaide.edu.au), [Zheng Liu](), and [Zizheng Pan](zizheng.pan@student.adelaide.edu.au) for their great help in building the dataset.
+## Reference
+The REVERIE task and dataset are descriped in:
+```
+@inproceedings{reverie,
+  title={REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments},
+  author={Yuankai Qi and Qi Wu and Peter Anderson and Xin Wang and William Yang Wang and Chunhua Shen and Anton van den Hengel},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}
+
+```

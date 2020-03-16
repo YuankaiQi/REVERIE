@@ -1,10 +1,11 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
+Here are the pre-relased data.
 <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
 </div>
 
 ## Definition of the REVERIE Task
-As shown in the above figure, an robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.
+As shown in the above figure, a robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.
 
 ## Data Organization
 Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_train.json, REVERIE_val_seen.json, and REVERIE_val_unseen.json three files, which provide instructions, paths, and target object of each task. In the bbox folder, you get json files that record objects observed at each viewpoint within 3 meters.
@@ -74,4 +75,4 @@ instrType = "instructions"
 self.instr_ids += ['%d_%d_%d' % (item['path_id'],item['objId'],i) for i in range(len(item[instrType]))]
 
 ```
-
++ To get the Remote Grounding Success Rate in the eval.py file, you need to implement the method to read the predicted object id from your results file. And then compare it against the 'objId' in the \_score_item() function.

@@ -1,5 +1,5 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
-Here are the pre-relased data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
+Here are the pre-released data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
 </div>

@@ -102,7 +102,7 @@ Below is a toy sample:
 + The number of instructions may vary across the dataset, we recommend the following way to index an instruction:
 ```
 instrType = "instructions"
-self.instr_ids += ['%s_%d' % (item['id'],i) for i in range(len(item[instrType]))]
+self.instr_ids += ['%s_%d' % (str(item['id']),i) for i in range(len(item[instrType]))]
 
 ```
 + To get the Remote Grounding Success Rate in the eval.py file, you need to implement the method to read the predicted object id from your results file. And then compare it against the 'objId' in the \_score_item() function.

@@ -1,5 +1,5 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
-+ New: The evaluation server is online here. To prepare submission files, please see the [Result file format]below.
++ New: The evaluation server is online here. To prepare submission files, please see the [Result file format](#resformat) below.
 
 Here are the pre-released data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 <div align="center">
@@ -72,8 +72,8 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
 + If you are new to this task, we recommend to first review the VLN task by [Self-Monitor](https://github.com/chihyaoma/selfmonitoring-agent), which helps you set up the R2R simulator. And then conduct the following instructions.
 
 The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction
-## Result file format
-[format]Just add the "'predObjId': int value" pair into your navigation results. That's it!
+<h2 id='resformat'>Result file format</h2>
+Just add the "'predObjId': int value" pair into your navigation results. That's it!
 Below is a toy sample:
 ```
 [

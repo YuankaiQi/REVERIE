@@ -71,10 +71,13 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
 ## Integrating into Your Project
 + If you are new to this task, we recommend to first review the VLN task by [Self-Monitor](https://github.com/chihyaoma/selfmonitoring-agent), which helps you set up the R2R simulator. And then conduct the following instructions.
 
-The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction
+The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction.
+
 <h2 id='resformat'>Result file format</h2>
+
 Just add the "'predObjId': int value" pair into your navigation results. That's it!
 Below is a toy sample:
+
 ```
 [
   {
@@ -86,7 +89,7 @@ Below is a toy sample:
       ], 
       ...
      ],
-     "instr_id": "4774_267_1",
+     "instr_id": "4774_267_1", 
      "predObjId": 402
   },
   ...

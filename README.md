@@ -76,6 +76,7 @@ The easiest way to integrate these object infomation into your project is to pre
 <h2 id='resformat'>Result file format</h2>
 
 Just add the "'predObjId': int value" pair into your navigation results. That's it!
+
 Below is a toy sample:
 
 ```

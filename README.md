@@ -1,4 +1,6 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
++ New: The evaluation server is online here. To prepare submission files, please see the [Result file format]below.
+
 Here are the pre-released data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
@@ -70,6 +72,27 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
 + If you are new to this task, we recommend to first review the VLN task by [Self-Monitor](https://github.com/chihyaoma/selfmonitoring-agent), which helps you set up the R2R simulator. And then conduct the following instructions.
 
 The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction
+## Result file format
+[format]Just add the "'predObjId': int value" pair into your navigation results. That's it!
+Below is a toy sample:
+```
+[
+  {
+    "trajectory": [
+      [
+        "a68b5ae6571e4a66a4727573b88227e4", 
+        3.141592653589793, 
+        0.0
+      ], 
+      ...
+     ],
+     "instr_id": "4774_267_1",
+     "predObjId": 402
+  },
+  ...
+]
+```
+
 ## Note
 + We modify the method to load dataset, see **load_datasets_REVERIE()** in utils.py
 + The number of instructions may vary across the dataset, we recommend the following way to index an instruction:

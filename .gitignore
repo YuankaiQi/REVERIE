@@ -5,3 +5,4 @@ img_features/objEachViewVisFeatFc7Top3/*
 img_features/ResNet-152-imagenet.tsv
 MAttNet3/*
 tasks/REVERIE/experiments/*
+!.gitkeep

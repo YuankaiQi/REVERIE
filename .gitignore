@@ -1,7 +1,7 @@
 build/*
 img_features/objFeat/*
-img_features/ObjEachViewLanFeatTop3/*
-img_features/ObjEachViewVisFeatFc7Top3/*
+img_features/objEachViewLanFeatTop3/*
+img_features/objEachViewVisFeatFc7Top3/*
 img_features/ResNet-152-imagenet.tsv
 MAttNet3/*
 tasks/REVERIE/experiments/*

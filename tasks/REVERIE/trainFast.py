@@ -435,9 +435,9 @@ def make_arg_parser():
                         help="options: instrutions, instructions_l")
 
     parser.add_argument("--ObjEachViewVisFeatDir", type=str,
-                        default='ObjEachViewVisFeatFc7Top3/')
+                        default='objEachViewVisFeatFc7Top3/')
     parser.add_argument("--ObjEachViewLanFeatDir", type=str,
-                        default='ObjEachViewLanFeatTop3/')
+                        default='objEachViewLanFeatTop3/')
     parser.add_argument("--labelGlovePath", type=str, # for object label embedding
                         default='tasks/REVERIE/data/reverie4_reverie4.npy')
     parser.add_argument("--grdModelPrefix", type=str,  # for visual grounding

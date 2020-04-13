@@ -1,3 +1,4 @@
+.idea/*
 build/*
 img_features/objFeat/*
 img_features/objEachViewLanFeatTop3/*

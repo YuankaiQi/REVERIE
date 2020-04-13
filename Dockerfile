@@ -19,7 +19,7 @@ libcudnn7-dev=$CUDNN_VERSION-1+cuda9.2 \
 # Install a few libraries to support both EGL and OSMESA options
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y wget doxygen curl libjsoncpp-dev libepoxy-dev libglm-dev libosmesa6 libosmesa6-dev libglew-dev libopencv-dev python-opencv python3-setuptools python3-dev python3-pip
-RUN pip3 install opencv-python==4.1.0.25 torch==1.1.0 torchvision==0.3.0 numpy==1.13.3 pandas==0.24.1 networkx==2.2
+RUN pip3 install opencv-python torch==0.4.0 torchvision==0.1.8 
 
 #install latest cmake
 ADD https://cmake.org/files/v3.12/cmake-3.12.2-Linux-x86_64.sh /cmake-3.12.2-Linux-x86_64.sh

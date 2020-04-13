@@ -128,7 +128,7 @@ make
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
 ### Train and Test the model
-You can download our pre-trained models from [Google Drive](https://drive.google.com/uc?id=16Kj1L3m7QWSffzygnuue084Q9b7IOhsQ&export=download) or [Baidu Yun](). If you want to train by yourself, just run the following command:
+You can download our pre-trained models from [Google Drive](https://drive.google.com/uc?id=16Kj1L3m7QWSffzygnuue084Q9b7IOhsQ&export=download){:target="_blank"} or [Baidu Yun](). If you want to train by yourself, just run the following command:
 ```
 python tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck
 ```

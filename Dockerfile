@@ -23,7 +23,7 @@ RUN pip3 install opencv-python
 RUN pip3 install backports.functools-lru-cache==1.4 cycler==0.10.0 decorator==4.1.2 matplotlib==2.1.0 networkx==2.0
 RUN pip3 install numpy==1.18.2 olefile pandas==0.21.0 Pillow>=4.3.0 pyparsing==2.2.0 python-dateutil==2.6.1
 RUN pip3 install pytz==2017.3 pyyaml>=4.2b1 six==1.11.0 scipy==1.2.1
-RUN pip3 install nltk scikit-image opencv-python Cython easydict tensorboardX
+RUN pip3 install nltk scikit-image Cython easydict tensorboardX
 RUN pip3 install torch==0.4.0 torchvision==0.1.8 
 #install latest cmake
 ADD https://cmake.org/files/v3.12/cmake-3.12.2-Linux-x86_64.sh /cmake-3.12.2-Linux-x86_64.sh

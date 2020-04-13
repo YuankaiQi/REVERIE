@@ -19,8 +19,12 @@ libcudnn7-dev=$CUDNN_VERSION-1+cuda9.2 \
 # Install a few libraries to support both EGL and OSMESA options
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y wget doxygen curl libjsoncpp-dev libepoxy-dev libglm-dev libosmesa6 libosmesa6-dev libglew-dev libopencv-dev python-opencv python3-setuptools python3-dev python3-pip
-RUN pip3 install opencv-python torch==0.4.0 torchvision==0.1.8 
-
+RUN pip3 install opencv-python 
+RUN pip3 install backports.functools-lru-cache==1.4 cycler==0.10.0 decorator==4.1.2 matplotlib==2.1.0 networkx==2.0
+RUN pip3 install numpy==1.18.2 olefile pandas==0.21.0 Pillow>=4.3.0 pyparsing==2.2.0 python-dateutil==2.6.1
+RUN pip3 install pytz==2017.3 pyyaml>=4.2b1 six==1.11.0 scipy==1.2.1
+RUN pip3 install nltk scikit-image opencv-python Cython easydict tensorboardX
+RUN pip3 install torch==0.4.0 torchvision==0.1.8 
 #install latest cmake
 ADD https://cmake.org/files/v3.12/cmake-3.12.2-Linux-x86_64.sh /cmake-3.12.2-Linux-x86_64.sh
 RUN mkdir /opt/cmake

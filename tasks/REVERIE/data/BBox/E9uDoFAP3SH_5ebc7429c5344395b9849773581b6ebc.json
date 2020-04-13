@@ -1,0 +1,24 @@
+{
+  "5ebc7429c5344395b9849773581b6ebc": {
+    "315": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "319": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "321": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "332": {
+      "name": "frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "6f3e45816afb49c6b680ed22e1af6190": {
+    "46": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "48": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "51": {
+      "name": "closet#door",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

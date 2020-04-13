@@ -1,0 +1,19 @@
+{
+  "cf2a6c0c56ed4b63b9be162272e3235f": {
+    "166": {
+      "name": "towel",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "176": {
+      "name": "towel",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "156": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

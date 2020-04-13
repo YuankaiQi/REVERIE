@@ -1,0 +1,29 @@
+{
+  "3beab818935e4ed8aefd2d4d080130fa": {
+    "16": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "17": {
+      "name": "bookshelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "18": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "19": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "22": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

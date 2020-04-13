@@ -1,0 +1,42 @@
+{
+  "5bf1bb00cdb8496280a50bf0c38b14ef": {
+    "757": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "758": {
+      "name": "firealarm",
+      "visible_pos": [
+        26,
+        27,
+        28
+      ],
+      "bbox2d": [
+        [
+          462,
+          123,
+          61,
+          41
+        ],
+        [
+          287,
+          156,
+          55,
+          35
+        ],
+        [
+          101,
+          120,
+          66,
+          41
+        ]
+      ]
+    },
+    "711": {
+      "name": "wall#behind",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

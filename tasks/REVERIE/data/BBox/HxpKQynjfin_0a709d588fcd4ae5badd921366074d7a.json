@@ -1,0 +1,24 @@
+{
+  "0a709d588fcd4ae5badd921366074d7a": {
+    "37": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "39": {
+      "name": "bed",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "42": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "43": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

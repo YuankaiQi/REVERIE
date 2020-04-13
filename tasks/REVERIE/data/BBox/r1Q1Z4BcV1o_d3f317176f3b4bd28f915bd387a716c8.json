@@ -1,0 +1,29 @@
+{
+  "d3f317176f3b4bd28f915bd387a716c8": {
+    "353": {
+      "name": "sink",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "357": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "360": {
+      "name": "bathroom#stall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "362": {
+      "name": "bathroom#stall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "365": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

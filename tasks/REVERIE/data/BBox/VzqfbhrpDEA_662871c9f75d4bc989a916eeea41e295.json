@@ -1,0 +1,19 @@
+{
+  "662871c9f75d4bc989a916eeea41e295": {
+    "624": {
+      "name": "piano",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "637": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "638": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

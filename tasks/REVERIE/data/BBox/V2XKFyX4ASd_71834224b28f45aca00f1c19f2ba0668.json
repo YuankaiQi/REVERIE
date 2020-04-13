@@ -1,0 +1,19 @@
+{
+  "71834224b28f45aca00f1c19f2ba0668": {
+    "323": {
+      "name": "molding",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "325": {
+      "name": "ceiling#beam",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "326": {
+      "name": "closet#door",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

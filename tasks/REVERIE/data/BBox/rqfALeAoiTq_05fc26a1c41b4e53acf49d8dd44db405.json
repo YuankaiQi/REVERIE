@@ -1,0 +1,30 @@
+{
+  "05fc26a1c41b4e53acf49d8dd44db405": {
+    "284": {
+      "name": "ceiling#light",
+      "visible_pos": [
+        28,
+        29
+      ],
+      "bbox2d": [
+        [
+          366,
+          0,
+          25,
+          31
+        ],
+        [
+          233,
+          0,
+          26,
+          27
+        ]
+      ]
+    },
+    "293": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

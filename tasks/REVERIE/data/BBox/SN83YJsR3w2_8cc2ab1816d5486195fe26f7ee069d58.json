@@ -1,0 +1,19 @@
+{
+  "8cc2ab1816d5486195fe26f7ee069d58": {
+    "330": {
+      "name": "table#shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "345": {
+      "name": "air#duct",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "346": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "88d2f09568ae435c8bf12bf00880f123": {
+    "459": {
+      "name": "pillow",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "465": {
+      "name": "bed",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "471": {
+      "name": "dresser",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

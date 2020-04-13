@@ -1,0 +1,42 @@
+{
+  "615acadbd02d4570b997e6021233996a": {
+    "278": {
+      "name": "beam",
+      "visible_pos": [
+        26,
+        27,
+        28
+      ],
+      "bbox2d": [
+        [
+          419,
+          0,
+          91,
+          44
+        ],
+        [
+          280,
+          0,
+          104,
+          72
+        ],
+        [
+          154,
+          0,
+          92,
+          47
+        ]
+      ]
+    },
+    "269": {
+      "name": "support#column",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "288": {
+      "name": "support#column",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

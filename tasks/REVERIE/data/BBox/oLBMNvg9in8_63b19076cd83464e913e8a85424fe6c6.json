@@ -1,0 +1,74 @@
+{
+  "63b19076cd83464e913e8a85424fe6c6": {
+    "213": {
+      "name": "heater",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "252": {
+      "name": "stand",
+      "visible_pos": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bbox2d": [
+        [
+          399,
+          421,
+          180,
+          59
+        ],
+        [
+          267,
+          380,
+          174,
+          100
+        ],
+        [
+          113,
+          378,
+          221,
+          102
+        ],
+        [
+          71,
+          450,
+          57,
+          30
+        ]
+      ]
+    },
+    "218": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "229": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "234": {
+      "name": "shelf#/w#clutter",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "239": {
+      "name": "rod",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "240": {
+      "name": "shelf#/w#clutter",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "248": {
+      "name": "rod",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

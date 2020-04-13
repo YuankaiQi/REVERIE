@@ -1,0 +1,52 @@
+{
+  "e94cd6b986b5456990723fa8d9612759": {
+    "533": {
+      "name": "picture",
+      "visible_pos": [
+        30,
+        31,
+        32
+      ],
+      "bbox2d": [
+        [
+          441,
+          0,
+          64,
+          92
+        ],
+        [
+          302,
+          0,
+          104,
+          119
+        ],
+        [
+          140,
+          0,
+          152,
+          80
+        ]
+      ]
+    },
+    "523": {
+      "name": "wainscotting",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "528": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "529": {
+      "name": "railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "530": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

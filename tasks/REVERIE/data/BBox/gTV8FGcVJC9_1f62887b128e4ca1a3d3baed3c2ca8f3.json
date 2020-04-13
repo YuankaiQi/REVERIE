@@ -1,0 +1,29 @@
+{
+  "1f62887b128e4ca1a3d3baed3c2ca8f3": {
+    "101": {
+      "name": "sofa#chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "62": {
+      "name": "bench",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "68": {
+      "name": "frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "71": {
+      "name": "bench",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "111": {
+      "name": "plant#pot",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

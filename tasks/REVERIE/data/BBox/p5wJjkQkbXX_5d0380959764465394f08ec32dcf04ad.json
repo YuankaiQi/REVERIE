@@ -1,0 +1,19 @@
+{
+  "5d0380959764465394f08ec32dcf04ad": {
+    "219": {
+      "name": "tv",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "226": {
+      "name": "telephone",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "239": {
+      "name": "book",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "2d4f020bd427433288c4b9e12bfdf5a6": {
+    "379": {
+      "name": "trash#can",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "389": {
+      "name": "toilet#paper",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "383": {
+      "name": "toilet",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "b2f31140a9d0482096da4ac481fb8a56": {
+    "325": {
+      "name": "doorknob",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "321": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "323": {
+      "name": "picture#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

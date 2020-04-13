@@ -1,0 +1,24 @@
+{
+  "50be95bc6efb466c90867d52cf32ba3f": {
+    "9": {
+      "name": "pillar",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "11": {
+      "name": "unknown#wall#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "21": {
+      "name": "unknown#wall#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "22": {
+      "name": "pillar",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

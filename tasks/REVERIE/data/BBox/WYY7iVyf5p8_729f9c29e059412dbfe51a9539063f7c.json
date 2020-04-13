@@ -1,0 +1,19 @@
+{
+  "729f9c29e059412dbfe51a9539063f7c": {
+    "102": {
+      "name": "shower",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "105": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "110": {
+      "name": "showerfloor",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

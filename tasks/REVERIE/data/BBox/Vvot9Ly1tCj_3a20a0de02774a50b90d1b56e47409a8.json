@@ -1,0 +1,19 @@
+{
+  "3a20a0de02774a50b90d1b56e47409a8": {
+    "589": {
+      "name": "pillar",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "606": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "616": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

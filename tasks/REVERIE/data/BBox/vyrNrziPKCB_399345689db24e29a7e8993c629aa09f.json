@@ -1,0 +1,19 @@
+{
+  "399345689db24e29a7e8993c629aa09f": {
+    "952": {
+      "name": "arches",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "966": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "975": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

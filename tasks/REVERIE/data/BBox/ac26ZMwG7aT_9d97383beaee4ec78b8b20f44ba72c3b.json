@@ -1,0 +1,24 @@
+{
+  "9d97383beaee4ec78b8b20f44ba72c3b": {
+    "1118": {
+      "name": "trash#can",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1122": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1083": {
+      "name": "shelves#/otherroom",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1146": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "fea557b2ef0e46929f85f0bfd71f9bdc": {
+    "14": {
+      "name": "towel",
+      "visible_pos": [
+        3,
+        4,
+        15,
+        16
+      ],
+      "bbox2d": [
+        [
+          383,
+          17,
+          36,
+          67
+        ],
+        [
+          144,
+          18,
+          24,
+          70
+        ],
+        [
+          380,
+          253,
+          28,
+          56
+        ],
+        [
+          153,
+          254,
+          31,
+          59
+        ]
+      ]
+    },
+    "5": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "7": {
+      "name": "toilet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "10": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

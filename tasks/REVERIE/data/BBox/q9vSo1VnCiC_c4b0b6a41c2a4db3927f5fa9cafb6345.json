@@ -1,0 +1,19 @@
+{
+  "c4b0b6a41c2a4db3927f5fa9cafb6345": {
+    "369": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "372": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "378": {
+      "name": "refrigerator",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

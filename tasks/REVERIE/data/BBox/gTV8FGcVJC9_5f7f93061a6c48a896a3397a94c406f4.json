@@ -1,0 +1,29 @@
+{
+  "5f7f93061a6c48a896a3397a94c406f4": {
+    "66": {
+      "name": "bin",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "101": {
+      "name": "sofa#chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "62": {
+      "name": "bench",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "68": {
+      "name": "frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "71": {
+      "name": "bench",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

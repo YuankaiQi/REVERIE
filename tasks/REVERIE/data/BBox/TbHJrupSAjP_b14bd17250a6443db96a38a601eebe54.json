@@ -1,0 +1,19 @@
+{
+  "b14bd17250a6443db96a38a601eebe54": {
+    "437": {
+      "name": "display#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "448": {
+      "name": "ceiling#lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "453": {
+      "name": "rug",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

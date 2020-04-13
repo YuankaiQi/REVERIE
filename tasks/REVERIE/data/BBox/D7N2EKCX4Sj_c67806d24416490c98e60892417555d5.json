@@ -1,0 +1,59 @@
+{
+  "c67806d24416490c98e60892417555d5": {
+    "907": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "909": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "910": {
+      "name": "sink",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "924": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "929": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "932": {
+      "name": "alarm#clock",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "933": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "937": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "938": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "939": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "941": {
+      "name": "trash#bin",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

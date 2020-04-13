@@ -1,0 +1,19 @@
+{
+  "a842803e09f84b9482dd1244df7d5df2": {
+    "552": {
+      "name": "statue",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "610": {
+      "name": "chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "636": {
+      "name": "sconce",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "c9c9dd651f25409c915f962a60efb7fb": {
+    "412": {
+      "name": "support",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "418": {
+      "name": "chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "419": {
+      "name": "table",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

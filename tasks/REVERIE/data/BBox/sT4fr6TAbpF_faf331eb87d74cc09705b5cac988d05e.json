@@ -1,0 +1,28 @@
+{
+  "faf331eb87d74cc09705b5cac988d05e": {
+    "297": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "299": {
+      "name": "light",
+      "visible_pos": [
+        24
+      ],
+      "bbox2d": [
+        [
+          353,
+          0,
+          16,
+          3
+        ]
+      ]
+    },
+    "290": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

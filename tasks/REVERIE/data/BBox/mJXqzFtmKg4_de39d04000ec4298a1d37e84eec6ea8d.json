@@ -1,0 +1,34 @@
+{
+  "de39d04000ec4298a1d37e84eec6ea8d": {
+    "64": {
+      "name": "chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "78": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "59": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "60": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "62": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "68": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "24162b6ef8324ebd85d959273079f239": {
+    "519": {
+      "name": "plant",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "520": {
+      "name": "stair#rail",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "524": {
+      "name": "plant",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "530": {
+      "name": "stair#rail",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

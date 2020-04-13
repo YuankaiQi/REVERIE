@@ -1,0 +1,19 @@
+{
+  "6d248793056c4499acdad8d928269045": {
+    "205": {
+      "name": "gym#equip",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "213": {
+      "name": "rowing#machine",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "217": {
+      "name": "bench",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

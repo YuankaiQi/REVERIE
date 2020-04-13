@@ -1,0 +1,24 @@
+{
+  "1dbf4725d8054e37b42fafae2e9d2fb2": {
+    "531": {
+      "name": "hallway#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "346": {
+      "name": "doorway",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "841": {
+      "name": "bookshelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "844": {
+      "name": "doorway",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

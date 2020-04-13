@@ -1,0 +1,24 @@
+{
+  "396e652c230e4a1b898136718897df94": {
+    "164": {
+      "name": "pantry",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "172": {
+      "name": "pantry",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "188": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "197": {
+      "name": "cabinets",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

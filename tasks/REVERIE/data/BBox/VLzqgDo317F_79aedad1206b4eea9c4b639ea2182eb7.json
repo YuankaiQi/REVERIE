@@ -1,0 +1,29 @@
+{
+  "79aedad1206b4eea9c4b639ea2182eb7": {
+    "164": {
+      "name": "person",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "166": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "167": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "497": {
+      "name": "beam",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "502": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

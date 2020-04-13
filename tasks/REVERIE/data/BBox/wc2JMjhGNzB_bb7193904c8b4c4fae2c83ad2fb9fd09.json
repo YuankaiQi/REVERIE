@@ -1,0 +1,24 @@
+{
+  "bb7193904c8b4c4fae2c83ad2fb9fd09": {
+    "225": {
+      "name": "wall#other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "228": {
+      "name": "archway",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "230": {
+      "name": "archway",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "234": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

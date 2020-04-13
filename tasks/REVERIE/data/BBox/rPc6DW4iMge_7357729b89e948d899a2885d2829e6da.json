@@ -1,0 +1,73 @@
+{
+  "7357729b89e948d899a2885d2829e6da": {
+    "450": {
+      "name": "window",
+      "visible_pos": [
+        24,
+        35
+      ],
+      "bbox2d": [
+        [
+          275,
+          0,
+          48,
+          41
+        ],
+        [
+          408,
+          0,
+          25,
+          29
+        ]
+      ]
+    },
+    "454": {
+      "name": "window",
+      "visible_pos": [
+        27,
+        28,
+        29
+      ],
+      "bbox2d": [
+        [
+          446,
+          0,
+          63,
+          16
+        ],
+        [
+          304,
+          0,
+          70,
+          68
+        ],
+        [
+          176,
+          0,
+          58,
+          65
+        ]
+      ]
+    },
+    "456": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "448": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "452": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "457": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

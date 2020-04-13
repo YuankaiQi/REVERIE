@@ -1,0 +1,245 @@
+{
+  "2fa5fb7c113d4feeb8ddc570330d2890": {
+    "1470": {
+      "name": "vanity",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1474": {
+      "name": "mirror",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1475": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1476": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1477": {
+      "name": "shower#soap#shelf",
+      "visible_pos": [
+        8,
+        9,
+        10,
+        11,
+        21,
+        22,
+        23,
+        33,
+        34,
+        35
+      ],
+      "bbox2d": [
+        [
+          623,
+          388,
+          17,
+          47
+        ],
+        [
+          420,
+          0,
+          220,
+          352
+        ],
+        [
+          223,
+          0,
+          191,
+          335
+        ],
+        [
+          0,
+          0,
+          204,
+          392
+        ],
+        [
+          424,
+          46,
+          216,
+          434
+        ],
+        [
+          201,
+          64,
+          211,
+          416
+        ],
+        [
+          0,
+          22,
+          188,
+          458
+        ],
+        [
+          421,
+          271,
+          219,
+          209
+        ],
+        [
+          205,
+          291,
+          212,
+          189
+        ],
+        [
+          0,
+          253,
+          189,
+          227
+        ]
+      ]
+    },
+    "1480": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1481": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1483": {
+      "name": "faucet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1486": {
+      "name": "towel",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1487": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1489": {
+      "name": "hook",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1492": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1493": {
+      "name": "shower#handle",
+      "visible_pos": [
+        2,
+        3,
+        4,
+        14,
+        15,
+        16
+      ],
+      "bbox2d": [
+        [
+          429,
+          208,
+          136,
+          86
+        ],
+        [
+          235,
+          195,
+          118,
+          77
+        ],
+        [
+          3,
+          220,
+          155,
+          102
+        ],
+        [
+          445,
+          439,
+          153,
+          41
+        ],
+        [
+          222,
+          423,
+          137,
+          57
+        ],
+        [
+          0,
+          454,
+          124,
+          26
+        ]
+      ]
+    },
+    "1494": {
+      "name": "shower#head",
+      "visible_pos": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "bbox2d": [
+        [
+          504,
+          15,
+          97,
+          110
+        ],
+        [
+          335,
+          92,
+          82,
+          78
+        ],
+        [
+          161,
+          74,
+          99,
+          81
+        ],
+        [
+          0,
+          0,
+          88,
+          76
+        ]
+      ]
+    },
+    "1442": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1447": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1453": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1455": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1468": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

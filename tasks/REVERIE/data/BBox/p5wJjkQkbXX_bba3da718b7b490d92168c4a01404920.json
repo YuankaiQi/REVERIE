@@ -1,0 +1,23 @@
+{
+  "bba3da718b7b490d92168c4a01404920": {
+    "559": {
+      "name": "bench",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "564": {
+      "name": "blanket",
+      "visible_pos": [
+        7
+      ],
+      "bbox2d": [
+        [
+          508,
+          459,
+          12,
+          21
+        ]
+      ]
+    }
+  }
+}

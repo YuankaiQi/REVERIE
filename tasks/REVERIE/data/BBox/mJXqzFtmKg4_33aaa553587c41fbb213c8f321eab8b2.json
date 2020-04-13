@@ -1,0 +1,74 @@
+{
+  "33aaa553587c41fbb213c8f321eab8b2": {
+    "64": {
+      "name": "chair",
+      "visible_pos": [
+        0,
+        9,
+        10,
+        11
+      ],
+      "bbox2d": [
+        [
+          28,
+          384,
+          14,
+          26
+        ],
+        [
+          590,
+          381,
+          16,
+          22
+        ],
+        [
+          398,
+          313,
+          9,
+          22
+        ],
+        [
+          228,
+          314,
+          9,
+          22
+        ]
+      ]
+    },
+    "67": {
+      "name": "stool",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "78": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "59": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "60": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "62": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "68": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "74": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

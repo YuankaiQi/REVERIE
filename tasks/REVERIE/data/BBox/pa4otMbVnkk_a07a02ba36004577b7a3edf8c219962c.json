@@ -1,0 +1,24 @@
+{
+  "a07a02ba36004577b7a3edf8c219962c": {
+    "1247": {
+      "name": "bowl",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1233": {
+      "name": "elevator",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1234": {
+      "name": "cupboard",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1235": {
+      "name": "refrigerator",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

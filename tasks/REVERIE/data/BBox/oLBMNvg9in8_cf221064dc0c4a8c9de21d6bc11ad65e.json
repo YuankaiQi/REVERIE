@@ -1,0 +1,24 @@
+{
+  "cf221064dc0c4a8c9de21d6bc11ad65e": {
+    "568": {
+      "name": "statue#/#art",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "571": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "577": {
+      "name": "chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "576": {
+      "name": "ceiling#behind",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

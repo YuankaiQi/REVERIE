@@ -1,0 +1,19 @@
+{
+  "286b0c2d9a46408ba80b6ccebb21e582": {
+    "4": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "10": {
+      "name": "weight#machine",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "22": {
+      "name": "weight#machine",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

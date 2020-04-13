@@ -1,0 +1,29 @@
+{
+  "fe82e066b87346359d43ccc326936eb2": {
+    "59": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "60": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "62": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "66": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "69": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "76869bdceadf4abf9d834fc7c9bbf2f5": {
+    "707": {
+      "name": "screen",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "714": {
+      "name": "display#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "736": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

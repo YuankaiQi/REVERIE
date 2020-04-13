@@ -1,0 +1,24 @@
+{
+  "04dbf54474354ec099ca16cf0d7f1686": {
+    "681": {
+      "name": "side#table",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "698": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "694": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "696": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

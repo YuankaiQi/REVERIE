@@ -1,0 +1,29 @@
+{
+  "5f0de4351fa34768ae521209a6e2e7e0": {
+    "172": {
+      "name": "under#stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "174": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "175": {
+      "name": "sideboard",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "178": {
+      "name": "sideboard",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "267": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

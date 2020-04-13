@@ -1,0 +1,19 @@
+{
+  "29869aadaa614e5fa1a74873ad03df57": {
+    "120": {
+      "name": "treadmill",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "122": {
+      "name": "fitness#device",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "127": {
+      "name": "fitness#device",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "895dc1e515e6491abd794cfdda27edd3": {
+    "209": {
+      "name": "kitchen#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "213": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "216": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "219": {
+      "name": "refrigerator",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

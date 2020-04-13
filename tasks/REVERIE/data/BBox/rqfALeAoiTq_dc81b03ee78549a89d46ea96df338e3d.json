@@ -1,0 +1,14 @@
+{
+  "dc81b03ee78549a89d46ea96df338e3d": {
+    "115": {
+      "name": "plant",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "128": {
+      "name": "pillar",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

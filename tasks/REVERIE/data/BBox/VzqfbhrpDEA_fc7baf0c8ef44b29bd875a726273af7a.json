@@ -1,0 +1,19 @@
+{
+  "fc7baf0c8ef44b29bd875a726273af7a": {
+    "265": {
+      "name": "plant",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "270": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "296": {
+      "name": "shelves",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

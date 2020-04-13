@@ -1,0 +1,34 @@
+{
+  "4fd7ad2ab317402bbab5d08b012e98f3": {
+    "848": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "849": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "853": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "856": {
+      "name": "bathroom#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "840": {
+      "name": "shower#soap#shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "842": {
+      "name": "shower#ceiling",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

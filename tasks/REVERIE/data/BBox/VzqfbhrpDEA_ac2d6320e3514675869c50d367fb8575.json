@@ -1,0 +1,24 @@
+{
+  "ac2d6320e3514675869c50d367fb8575": {
+    "669": {
+      "name": "decorative#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "627": {
+      "name": "fireplace",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "631": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "652": {
+      "name": "easychair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

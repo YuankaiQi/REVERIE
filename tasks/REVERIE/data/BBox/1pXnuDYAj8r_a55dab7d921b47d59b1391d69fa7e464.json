@@ -1,0 +1,64 @@
+{
+  "a55dab7d921b47d59b1391d69fa7e464": {
+    "44": {
+      "name": "light",
+      "visible_pos": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "bbox2d": [
+        [
+          462,
+          6,
+          93,
+          94
+        ],
+        [
+          306,
+          63,
+          77,
+          74
+        ],
+        [
+          147,
+          43,
+          84,
+          74
+        ],
+        [
+          0,
+          0,
+          55,
+          21
+        ]
+      ]
+    },
+    "58": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "34": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "38": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "40": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "48": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

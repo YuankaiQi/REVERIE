@@ -1,0 +1,19 @@
+{
+  "be6e13d7ad3b44309736a1b829ef6d63": {
+    "561": {
+      "name": "staircase",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "562": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "563": {
+      "name": "trees",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

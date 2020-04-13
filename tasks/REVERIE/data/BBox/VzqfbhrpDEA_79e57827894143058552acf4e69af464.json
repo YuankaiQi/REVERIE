@@ -1,0 +1,19 @@
+{
+  "79e57827894143058552acf4e69af464": {
+    "493": {
+      "name": "garage#door",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "499": {
+      "name": "glass#window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "508": {
+      "name": "glass#window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

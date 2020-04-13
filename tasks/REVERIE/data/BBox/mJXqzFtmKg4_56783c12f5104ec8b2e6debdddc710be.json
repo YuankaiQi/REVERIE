@@ -1,0 +1,54 @@
+{
+  "56783c12f5104ec8b2e6debdddc710be": {
+    "397": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "398": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "399": {
+      "name": "gym#machine",
+      "visible_pos": [
+        0,
+        1,
+        2,
+        11
+      ],
+      "bbox2d": [
+        [
+          394,
+          281,
+          160,
+          199
+        ],
+        [
+          248,
+          261,
+          108,
+          219
+        ],
+        [
+          78,
+          288,
+          135,
+          192
+        ],
+        [
+          566,
+          436,
+          74,
+          44
+        ]
+      ]
+    },
+    "386": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

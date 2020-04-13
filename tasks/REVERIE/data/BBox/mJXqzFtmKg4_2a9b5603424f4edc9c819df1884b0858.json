@@ -1,0 +1,19 @@
+{
+  "2a9b5603424f4edc9c819df1884b0858": {
+    "549": {
+      "name": "kitchen#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "551": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "561": {
+      "name": "fume#cupboard",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

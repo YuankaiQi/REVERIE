@@ -1,0 +1,49 @@
+{
+  "e057d1f9d9ba42948fc848930f235276": {
+    "142": {
+      "name": "box",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "144": {
+      "name": "chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "146": {
+      "name": "canister",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "147": {
+      "name": "canister",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "131": {
+      "name": "boiler",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "133": {
+      "name": "canister",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "137": {
+      "name": "pipes",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "139": {
+      "name": "pipes",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "145": {
+      "name": "canister",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

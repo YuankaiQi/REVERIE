@@ -1,0 +1,19 @@
+{
+  "95f8c48fdba04c37bef5e88e052c9169": {
+    "437": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "438": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "444": {
+      "name": "painting",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

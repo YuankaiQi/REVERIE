@@ -1,0 +1,33 @@
+{
+  "9e5c8a8ba7714238a5cb78472a44e556": {
+    "159": {
+      "name": "shelf",
+      "visible_pos": [
+        29
+      ],
+      "bbox2d": [
+        [
+          264,
+          0,
+          3,
+          4
+        ]
+      ]
+    },
+    "149": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "157": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "188": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

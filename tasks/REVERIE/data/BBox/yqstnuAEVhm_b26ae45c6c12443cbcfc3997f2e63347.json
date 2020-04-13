@@ -1,0 +1,24 @@
+{
+  "b26ae45c6c12443cbcfc3997f2e63347": {
+    "271": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "398": {
+      "name": "knickknack",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "251": {
+      "name": "glass",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "255": {
+      "name": "glass",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

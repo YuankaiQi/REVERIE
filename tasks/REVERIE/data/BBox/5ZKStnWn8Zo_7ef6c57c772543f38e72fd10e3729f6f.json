@@ -1,0 +1,66 @@
+{
+  "7ef6c57c772543f38e72fd10e3729f6f": {
+    "1009": {
+      "name": "floor#/#other#room",
+      "visible_pos": [
+        15,
+        16,
+        26,
+        27,
+        28
+      ],
+      "bbox2d": [
+        [
+          387,
+          24,
+          8,
+          5
+        ],
+        [
+          163,
+          14,
+          9,
+          3
+        ],
+        [
+          606,
+          211,
+          9,
+          7
+        ],
+        [
+          382,
+          258,
+          6,
+          3
+        ],
+        [
+          182,
+          251,
+          5,
+          2
+        ]
+      ]
+    },
+    "1001": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1008": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1014": {
+      "name": "bed#/#other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1016": {
+      "name": "handrail#/#other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

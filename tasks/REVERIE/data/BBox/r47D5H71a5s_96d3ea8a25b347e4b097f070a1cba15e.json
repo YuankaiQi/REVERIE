@@ -1,0 +1,19 @@
+{
+  "96d3ea8a25b347e4b097f070a1cba15e": {
+    "116": {
+      "name": "board",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "122": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "111": {
+      "name": "plant",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "7a7c76c10fc9473fbd7d04a66733b9bc": {
+    "1556": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1694": {
+      "name": "balcony#railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1696": {
+      "name": "other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ea1f533ab27d434e8665b0be2d5634e6": {
+    "265": {
+      "name": "plant",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "270": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "287": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

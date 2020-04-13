@@ -1,0 +1,29 @@
+{
+  "f4695941d94742d19fc39d382fa9af4d": {
+    "42": {
+      "name": "couch",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "43": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "45": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "46": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "76": {
+      "name": "baracade",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

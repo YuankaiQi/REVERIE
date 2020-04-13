@@ -1,0 +1,44 @@
+{
+  "e1f4d13cd7c24350af54db7ce76f9853": {
+    "330": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "335": {
+      "name": "windowframe",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "345": {
+      "name": "windowframe",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "346": {
+      "name": "mirror",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "347": {
+      "name": "couch",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "348": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "351": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "368": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "5a72c23b99fa40f1bcd9dfbb60340b05": {
+    "790": {
+      "name": "window",
+      "visible_pos": [
+        32
+      ],
+      "bbox2d": [
+        [
+          278,
+          0,
+          10,
+          7
+        ]
+      ]
+    },
+    "902": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

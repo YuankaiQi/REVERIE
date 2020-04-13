@@ -1,0 +1,19 @@
+{
+  "50476a17346a4879906f81b47b9418de": {
+    "186": {
+      "name": "beam",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "181": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "184": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

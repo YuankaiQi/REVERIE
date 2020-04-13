@@ -1,0 +1,19 @@
+{
+  "64565f72062245da87430cc31dd383d9": {
+    "169": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "165": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "200": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

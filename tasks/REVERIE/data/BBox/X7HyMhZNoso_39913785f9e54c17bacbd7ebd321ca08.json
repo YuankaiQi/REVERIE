@@ -1,0 +1,29 @@
+{
+  "39913785f9e54c17bacbd7ebd321ca08": {
+    "176": {
+      "name": "ceiling#/other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "171": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "178": {
+      "name": "wall#/other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "181": {
+      "name": "wall#/other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "185": {
+      "name": "wall#/other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dea81734bad44c9389a908251f9b70d0": {
+    "56": {
+      "name": "laundry#basket",
+      "visible_pos": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "bbox2d": [
+        [
+          413,
+          346,
+          227,
+          134
+        ],
+        [
+          279,
+          305,
+          197,
+          175
+        ],
+        [
+          125,
+          286,
+          188,
+          194
+        ],
+        [
+          0,
+          328,
+          150,
+          152
+        ]
+      ]
+    },
+    "60": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "52": {
+      "name": "shelving",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "54": {
+      "name": "clothes",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "59": {
+      "name": "trash#bag",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

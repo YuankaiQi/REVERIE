@@ -1,0 +1,39 @@
+{
+  "2076b11ca72347d5ae50a313e184b4a5": {
+    "1226": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1256": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1260": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1261": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1266": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1270": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1284": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

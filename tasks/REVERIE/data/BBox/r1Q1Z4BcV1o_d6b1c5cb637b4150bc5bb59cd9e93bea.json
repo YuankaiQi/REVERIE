@@ -1,0 +1,54 @@
+{
+  "d6b1c5cb637b4150bc5bb59cd9e93bea": {
+    "361": {
+      "name": "lamp",
+      "visible_pos": [
+        24,
+        31,
+        34,
+        35
+      ],
+      "bbox2d": [
+        [
+          212,
+          64,
+          4,
+          6
+        ],
+        [
+          314,
+          0,
+          9,
+          16
+        ],
+        [
+          519,
+          23,
+          7,
+          3
+        ],
+        [
+          362,
+          79,
+          4,
+          4
+        ]
+      ]
+    },
+    "353": {
+      "name": "sink",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "355": {
+      "name": "bathroom#stall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "366": {
+      "name": "lamp",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "16bd2ace3edc47449caca63e656bce1b": {
+    "30": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "31": {
+      "name": "beam",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "34": {
+      "name": "beam",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "35": {
+      "name": "beam",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

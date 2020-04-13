@@ -1,0 +1,73 @@
+{
+  "2c28c2f91ca649959901f8b74ac0c33e": {
+    "34": {
+      "name": "toilet#paper",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "38": {
+      "name": "toilet#paper#holder",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "39": {
+      "name": "shower#curtain#rod",
+      "visible_pos": [
+        24,
+        25,
+        26,
+        33,
+        34,
+        35
+      ],
+      "bbox2d": [
+        [
+          0,
+          0,
+          492,
+          29
+        ],
+        [
+          200,
+          0,
+          142,
+          70
+        ],
+        [
+          151,
+          0,
+          46,
+          44
+        ],
+        [
+          488,
+          0,
+          94,
+          141
+        ],
+        [
+          312,
+          0,
+          174,
+          172
+        ],
+        [
+          132,
+          0,
+          307,
+          142
+        ]
+      ]
+    },
+    "25": {
+      "name": "shower#curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "27": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

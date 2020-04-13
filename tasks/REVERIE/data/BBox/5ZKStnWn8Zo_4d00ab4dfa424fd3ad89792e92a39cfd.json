@@ -1,0 +1,29 @@
+{
+  "4d00ab4dfa424fd3ad89792e92a39cfd": {
+    "0": {
+      "name": "bathtub",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "21": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "24": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "25": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "41": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

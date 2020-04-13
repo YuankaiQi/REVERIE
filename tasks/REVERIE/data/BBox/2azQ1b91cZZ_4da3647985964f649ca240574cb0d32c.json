@@ -1,0 +1,24 @@
+{
+  "4da3647985964f649ca240574cb0d32c": {
+    "542": {
+      "name": "step",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "533": {
+      "name": "curved#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "545": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "549": {
+      "name": "doorway",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

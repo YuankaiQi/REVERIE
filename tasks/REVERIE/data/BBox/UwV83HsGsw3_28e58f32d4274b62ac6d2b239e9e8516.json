@@ -1,0 +1,24 @@
+{
+  "28e58f32d4274b62ac6d2b239e9e8516": {
+    "65": {
+      "name": "ceiling#vent",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "54": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "58": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "61": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

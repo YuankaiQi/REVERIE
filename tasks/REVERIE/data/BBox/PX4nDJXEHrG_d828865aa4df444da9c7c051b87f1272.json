@@ -1,0 +1,24 @@
+{
+  "d828865aa4df444da9c7c051b87f1272": {
+    "868": {
+      "name": "sink",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "873": {
+      "name": "bathroom#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "877": {
+      "name": "mirror",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "879": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

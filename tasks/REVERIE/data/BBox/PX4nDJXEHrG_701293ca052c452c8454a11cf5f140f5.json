@@ -1,0 +1,19 @@
+{
+  "701293ca052c452c8454a11cf5f140f5": {
+    "457": {
+      "name": "post",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "460": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "461": {
+      "name": "entrance",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

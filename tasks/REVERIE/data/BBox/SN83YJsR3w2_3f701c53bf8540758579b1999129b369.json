@@ -1,0 +1,19 @@
+{
+  "3f701c53bf8540758579b1999129b369": {
+    "467": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "475": {
+      "name": "trim",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "478": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

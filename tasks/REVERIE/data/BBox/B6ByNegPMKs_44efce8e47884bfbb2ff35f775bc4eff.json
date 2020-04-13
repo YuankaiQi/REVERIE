@@ -1,0 +1,24 @@
+{
+  "44efce8e47884bfbb2ff35f775bc4eff": {
+    "2217": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "2226": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "2235": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "2242": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

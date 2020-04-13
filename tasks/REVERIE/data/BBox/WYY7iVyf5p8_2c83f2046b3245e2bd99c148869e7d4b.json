@@ -1,0 +1,19 @@
+{
+  "2c83f2046b3245e2bd99c148869e7d4b": {
+    "185": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "180": {
+      "name": "ceilling",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "387": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

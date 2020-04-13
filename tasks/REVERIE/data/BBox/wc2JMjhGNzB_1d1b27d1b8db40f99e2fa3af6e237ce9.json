@@ -1,0 +1,19 @@
+{
+  "1d1b27d1b8db40f99e2fa3af6e237ce9": {
+    "969": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1001": {
+      "name": "closet#storage#area",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1006": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ec76b2dc0e8248188d897e3e487df74e": {
+    "264": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "267": {
+      "name": "showerhead",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "259": {
+      "name": "towel",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

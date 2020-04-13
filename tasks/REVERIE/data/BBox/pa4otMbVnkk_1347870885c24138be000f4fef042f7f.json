@@ -1,0 +1,24 @@
+{
+  "1347870885c24138be000f4fef042f7f": {
+    "701": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "705": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "714": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "742": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

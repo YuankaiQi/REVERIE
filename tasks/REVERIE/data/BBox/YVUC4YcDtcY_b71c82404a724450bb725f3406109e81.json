@@ -1,0 +1,29 @@
+{
+  "b71c82404a724450bb725f3406109e81": {
+    "163": {
+      "name": "office#chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "167": {
+      "name": "desk",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "172": {
+      "name": "desk",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "175": {
+      "name": "office#chair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "161": {
+      "name": "cubicle",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

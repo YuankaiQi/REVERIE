@@ -1,0 +1,64 @@
+{
+  "eac7407311714436968c3ea1ec5f98a5": {
+    "1136": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1170": {
+      "name": "shelf",
+      "visible_pos": [
+        14,
+        25,
+        26,
+        27
+      ],
+      "bbox2d": [
+        [
+          289,
+          0,
+          27,
+          15
+        ],
+        [
+          472,
+          132,
+          87,
+          97
+        ],
+        [
+          293,
+          159,
+          65,
+          92
+        ],
+        [
+          85,
+          123,
+          86,
+          99
+        ]
+      ]
+    },
+    "1119": {
+      "name": "closest#area",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1120": {
+      "name": "closest#area",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1124": {
+      "name": "mirror",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1128": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

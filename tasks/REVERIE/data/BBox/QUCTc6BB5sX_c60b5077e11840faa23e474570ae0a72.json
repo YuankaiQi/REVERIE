@@ -1,0 +1,19 @@
+{
+  "c60b5077e11840faa23e474570ae0a72": {
+    "152": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "146": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "161": {
+      "name": "painting",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

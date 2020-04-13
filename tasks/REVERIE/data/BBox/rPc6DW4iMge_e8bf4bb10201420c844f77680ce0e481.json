@@ -1,0 +1,23 @@
+{
+  "e8bf4bb10201420c844f77680ce0e481": {
+    "504": {
+      "name": "air#conditioner",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "506": {
+      "name": "light",
+      "visible_pos": [
+        24
+      ],
+      "bbox2d": [
+        [
+          297,
+          0,
+          48,
+          6
+        ]
+      ]
+    }
+  }
+}

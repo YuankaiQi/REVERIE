@@ -1,0 +1,64 @@
+{
+  "ea12dd63895345369d80a91aacb6e137": {
+    "911": {
+      "name": "towel#basket",
+      "visible_pos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "bbox2d": [
+        [
+          458,
+          408,
+          92,
+          72
+        ],
+        [
+          309,
+          365,
+          67,
+          115
+        ],
+        [
+          170,
+          375,
+          69,
+          105
+        ],
+        [
+          9,
+          462,
+          33,
+          18
+        ]
+      ]
+    },
+    "863": {
+      "name": "shower#stall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "867": {
+      "name": "shelving#/#other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "869": {
+      "name": "shower#stall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "885": {
+      "name": "shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "895": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

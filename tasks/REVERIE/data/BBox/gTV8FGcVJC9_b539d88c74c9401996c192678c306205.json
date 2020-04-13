@@ -1,0 +1,34 @@
+{
+  "b539d88c74c9401996c192678c306205": {
+    "664": {
+      "name": "dishwasher",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "667": {
+      "name": "laundry#basket",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "668": {
+      "name": "bottle",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "669": {
+      "name": "box",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "656": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "659": {
+      "name": "door/other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

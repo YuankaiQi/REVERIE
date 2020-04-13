@@ -1,0 +1,24 @@
+{
+  "0218d7b2320c487f939979a5290f0007": {
+    "178": {
+      "name": "wall2",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "798": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1069": {
+      "name": "staircase#railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1070": {
+      "name": "ceiling#under#stairs",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "8f1936c546cb4b4d9a1f6a6ad8949e5a": {
+    "380": {
+      "name": "doorway",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "547": {
+      "name": "doorway",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "553": {
+      "name": "mirror",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

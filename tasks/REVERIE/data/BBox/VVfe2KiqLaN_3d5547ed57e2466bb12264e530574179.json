@@ -1,0 +1,24 @@
+{
+  "3d5547ed57e2466bb12264e530574179": {
+    "236": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "237": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "239": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "242": {
+      "name": "window#frames",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

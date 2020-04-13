@@ -1,0 +1,29 @@
+{
+  "d61b99f8f134414085b3d2b6f46fee37": {
+    "98": {
+      "name": "curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "83": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "86": {
+      "name": "shower#curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "89": {
+      "name": "bathtub",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "91": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

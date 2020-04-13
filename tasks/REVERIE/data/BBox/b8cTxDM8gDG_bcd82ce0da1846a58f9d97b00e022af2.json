@@ -1,0 +1,23 @@
+{
+  "bcd82ce0da1846a58f9d97b00e022af2": {
+    "574": {
+      "name": "light",
+      "visible_pos": [
+        33
+      ],
+      "bbox2d": [
+        [
+          318,
+          1,
+          12,
+          6
+        ]
+      ]
+    },
+    "575": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

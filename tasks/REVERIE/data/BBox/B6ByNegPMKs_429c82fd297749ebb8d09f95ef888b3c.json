@@ -1,0 +1,29 @@
+{
+  "429c82fd297749ebb8d09f95ef888b3c": {
+    "1239": {
+      "name": "ceiling#duct",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1256": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1258": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1260": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1270": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

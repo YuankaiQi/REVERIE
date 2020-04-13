@@ -1,0 +1,19 @@
+{
+  "3d00ff16bea14f95acec72a5d09b01ce": {
+    "411": {
+      "name": "railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "414": {
+      "name": "railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "466": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

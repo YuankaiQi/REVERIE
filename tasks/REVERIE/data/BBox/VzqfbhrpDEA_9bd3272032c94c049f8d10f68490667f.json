@@ -1,0 +1,102 @@
+{
+  "9bd3272032c94c049f8d10f68490667f": {
+    "1323": {
+      "name": "toilet",
+      "visible_pos": [
+        0,
+        1,
+        10,
+        11
+      ],
+      "bbox2d": [
+        [
+          100,
+          303,
+          209,
+          177
+        ],
+        [
+          0,
+          349,
+          142,
+          131
+        ],
+        [
+          378,
+          311,
+          262,
+          169
+        ],
+        [
+          252,
+          277,
+          229,
+          203
+        ]
+      ]
+    },
+    "1338": {
+      "name": "shower#soap#shelf",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1349": {
+      "name": "shower#handle",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1350": {
+      "name": "toilet#paper",
+      "visible_pos": [
+        9,
+        10,
+        11
+      ],
+      "bbox2d": [
+        [
+          445,
+          339,
+          94,
+          62
+        ],
+        [
+          278,
+          302,
+          79,
+          67
+        ],
+        [
+          99,
+          325,
+          90,
+          82
+        ]
+      ]
+    },
+    "1316": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1321": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1334": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1337": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1340": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

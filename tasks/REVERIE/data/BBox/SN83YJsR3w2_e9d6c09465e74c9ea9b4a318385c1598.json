@@ -1,0 +1,24 @@
+{
+  "e9d6c09465e74c9ea9b4a318385c1598": {
+    "490": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "491": {
+      "name": "trim",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "492": {
+      "name": "landing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "493": {
+      "name": "landing",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

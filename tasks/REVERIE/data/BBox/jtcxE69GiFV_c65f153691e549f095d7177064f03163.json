@@ -1,0 +1,19 @@
+{
+  "c65f153691e549f095d7177064f03163": {
+    "866": {
+      "name": "kitchen#ceiling",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "879": {
+      "name": "kitchen#faucet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "884": {
+      "name": "kitchen#handle",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "dda6efcba51c40de8552408953719515": {
+    "296": {
+      "name": "floor#/#other#room",
+      "visible_pos": [
+        10
+      ],
+      "bbox2d": [
+        [
+          303,
+          464,
+          34,
+          16
+        ]
+      ]
+    },
+    "323": {
+      "name": "drawers#for#clothes",
+      "visible_pos": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "bbox2d": [
+        [
+          444,
+          303,
+          196,
+          177
+        ],
+        [
+          293,
+          261,
+          177,
+          219
+        ],
+        [
+          104,
+          275,
+          222,
+          205
+        ],
+        [
+          0,
+          359,
+          188,
+          121
+        ]
+      ]
+    },
+    "332": {
+      "name": "object#/#camera?",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "335": {
+      "name": "bench",
+      "visible_pos": [
+        6,
+        7,
+        8
+      ],
+      "bbox2d": [
+        [
+          460,
+          429,
+          91,
+          51
+        ],
+        [
+          297,
+          388,
+          136,
+          92
+        ],
+        [
+          168,
+          408,
+          147,
+          72
+        ]
+      ]
+    },
+    "299": {
+      "name": "unknown#/#other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "318": {
+      "name": "closet#area#for#hanging#clothes",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "324": {
+      "name": "shelves",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

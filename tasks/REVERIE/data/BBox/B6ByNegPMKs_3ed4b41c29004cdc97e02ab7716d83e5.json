@@ -1,0 +1,95 @@
+{
+  "3ed4b41c29004cdc97e02ab7716d83e5": {
+    "1239": {
+      "name": "ceiling#duct",
+      "visible_pos": [
+        24,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "bbox2d": [
+        [
+          25,
+          0,
+          202,
+          35
+        ],
+        [
+          387,
+          0,
+          252,
+          56
+        ],
+        [
+          252,
+          0,
+          271,
+          147
+        ],
+        [
+          113,
+          0,
+          384,
+          161
+        ],
+        [
+          21,
+          0,
+          566,
+          113
+        ],
+        [
+          142,
+          0,
+          350,
+          112
+        ],
+        [
+          117,
+          0,
+          242,
+          107
+        ]
+      ]
+    },
+    "1226": {
+      "name": "column",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1256": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1260": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1261": {
+      "name": "window#frame",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1266": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1270": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "1284": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

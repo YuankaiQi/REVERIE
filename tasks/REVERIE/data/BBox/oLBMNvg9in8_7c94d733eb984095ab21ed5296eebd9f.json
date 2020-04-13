@@ -1,0 +1,42 @@
+{
+  "7c94d733eb984095ab21ed5296eebd9f": {
+    "768": {
+      "name": "hunting#trohpy",
+      "visible_pos": [
+        24,
+        34,
+        35
+      ],
+      "bbox2d": [
+        [
+          207,
+          0,
+          46,
+          9
+        ],
+        [
+          403,
+          0,
+          23,
+          24
+        ],
+        [
+          268,
+          0,
+          116,
+          33
+        ]
+      ]
+    },
+    "760": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "761": {
+      "name": "moose#head#/#sculpture#/#hunting#trophy",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

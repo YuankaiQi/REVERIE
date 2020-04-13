@@ -1,0 +1,19 @@
+{
+  "b37b2c903995434fb4f9a990ce4cac93": {
+    "556": {
+      "name": "light",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "557": {
+      "name": "floor#behind",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "559": {
+      "name": "floor#behind",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

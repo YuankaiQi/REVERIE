@@ -1,0 +1,59 @@
+{
+  "aabe1ec42c7f426a85b709e03c4711e9": {
+    "533": {
+      "name": "trash#can",
+      "visible_pos": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "bbox2d": [
+        [
+          548,
+          347,
+          92,
+          133
+        ],
+        [
+          383,
+          276,
+          102,
+          204
+        ],
+        [
+          214,
+          270,
+          87,
+          208
+        ],
+        [
+          2,
+          313,
+          143,
+          167
+        ]
+      ]
+    },
+    "555": {
+      "name": "step",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "536": {
+      "name": "staircase#railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "565": {
+      "name": "staircase#railing",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "577": {
+      "name": "staircase#railing",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

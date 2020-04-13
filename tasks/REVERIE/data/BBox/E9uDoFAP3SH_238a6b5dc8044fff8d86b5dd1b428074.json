@@ -1,0 +1,93 @@
+{
+  "238a6b5dc8044fff8d86b5dd1b428074": {
+    "823": {
+      "name": "sink",
+      "visible_pos": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "bbox2d": [
+        [
+          591,
+          403,
+          49,
+          61
+        ],
+        [
+          399,
+          279,
+          241,
+          201
+        ],
+        [
+          232,
+          250,
+          408,
+          230
+        ],
+        [
+          38,
+          263,
+          473,
+          160
+        ],
+        [
+          0,
+          257,
+          346,
+          223
+        ],
+        [
+          0,
+          310,
+          187,
+          170
+        ]
+      ]
+    },
+    "799": {
+      "name": "kitchen#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "803": {
+      "name": "wall#\\other#oom",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "804": {
+      "name": "fireplace#\\other#room",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "806": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "812": {
+      "name": "kitchen#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "813": {
+      "name": "windowframe",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "818": {
+      "name": "kitchen#counter",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "822": {
+      "name": "kitchen#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

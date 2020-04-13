@@ -1,0 +1,113 @@
+{
+  "23d94c8b4d1a4e30aa909349e2f777ae": {
+    "373": {
+      "name": "kitchen#countertop#object",
+      "visible_pos": [
+        6,
+        7,
+        8
+      ],
+      "bbox2d": [
+        [
+          506,
+          318,
+          49,
+          88
+        ],
+        [
+          339,
+          281,
+          28,
+          81
+        ],
+        [
+          158,
+          302,
+          41,
+          84
+        ]
+      ]
+    },
+    "376": {
+      "name": "kitchen#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "384": {
+      "name": "kitchen#counter",
+      "visible_pos": [
+        6,
+        7,
+        8,
+        9,
+        18,
+        19,
+        20
+      ],
+      "bbox2d": [
+        [
+          491,
+          227,
+          149,
+          233
+        ],
+        [
+          334,
+          200,
+          172,
+          212
+        ],
+        [
+          125,
+          219,
+          197,
+          214
+        ],
+        [
+          0,
+          316,
+          137,
+          164
+        ],
+        [
+          581,
+          463,
+          20,
+          17
+        ],
+        [
+          336,
+          429,
+          69,
+          51
+        ],
+        [
+          101,
+          453,
+          62,
+          27
+        ]
+      ]
+    },
+    "432": {
+      "name": "flower",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "442": {
+      "name": "kitchen#countertop#object",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "402": {
+      "name": "cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "595": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

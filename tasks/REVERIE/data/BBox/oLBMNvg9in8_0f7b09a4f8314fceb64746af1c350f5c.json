@@ -1,0 +1,24 @@
+{
+  "0f7b09a4f8314fceb64746af1c350f5c": {
+    "695": {
+      "name": "painting",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "712": {
+      "name": "pillow",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "688": {
+      "name": "bed",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "692": {
+      "name": "fancy#cabinet",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

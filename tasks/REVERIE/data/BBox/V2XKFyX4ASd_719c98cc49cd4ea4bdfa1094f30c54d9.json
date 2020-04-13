@@ -1,0 +1,24 @@
+{
+  "719c98cc49cd4ea4bdfa1094f30c54d9": {
+    "307": {
+      "name": "window",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "310": {
+      "name": "shower#curtain",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "313": {
+      "name": "shower",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "318": {
+      "name": "shower#wall",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

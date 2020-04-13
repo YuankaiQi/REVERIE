@@ -1,0 +1,24 @@
+{
+  "15db0029a9844a5c8f8aadefe7178d10": {
+    "394": {
+      "name": "pillow",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "398": {
+      "name": "armchair",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "413": {
+      "name": "picture",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "461": {
+      "name": "stair#fencing",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

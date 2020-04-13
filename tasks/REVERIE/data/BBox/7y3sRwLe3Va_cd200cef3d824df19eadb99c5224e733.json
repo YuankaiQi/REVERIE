@@ -1,0 +1,14 @@
+{
+  "cd200cef3d824df19eadb99c5224e733": {
+    "313": {
+      "name": "stair#/otherroom",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "314": {
+      "name": "ceiling#/otherroom",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

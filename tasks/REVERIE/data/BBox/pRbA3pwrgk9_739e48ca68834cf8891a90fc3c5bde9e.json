@@ -1,0 +1,24 @@
+{
+  "739e48ca68834cf8891a90fc3c5bde9e": {
+    "379": {
+      "name": "trash#can",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "383": {
+      "name": "toilet",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "389": {
+      "name": "toilet#paper",
+      "visible_pos": [],
+      "bbox2d": []
+    },
+    "359": {
+      "name": "stair",
+      "visible_pos": [],
+      "bbox2d": []
+    }
+  }
+}

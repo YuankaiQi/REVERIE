@@ -5,15 +5,15 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 
 <table border=“0”>
   <tr border="0"><td border="0">
-    <a href="#1">1. Definition of the REVERIE Task]</a>
-[2. Install without Docker](#2-Install-without-Docker)<br>
-[3. Install with Docker](#3-Install-with-Docker-not-tested)<br>
-[4. Train and Test the Model](#4-Train-and-Test-the-Model)<br>
-[5. Data Organization of the REVERIE Task](#5-data-organization-of-the-reverie-task)<br>
-[6. Integrate into Your Existing Project](#6-Integrate-into-your-existing-project)<br>
-[7. Result File Format](#7-result-file-format)<br>
-[8. Acknowledgements](#8-acknowledgements)<br>
-[9. Reference](#9-reference)<br></td>
+    <a href="#1">1. Definition of the REVERIE Task</a><br>
+    <a href="#2">2. Install without Docker</a><br>
+<a href="#3">3. Install with Docker</a><br>
+<a href="#4">4. Train and Test the Model</a><br>
+<a href="#5">5. Data Organization of the REVERIE Task</a><br>
+<a href="#6">6. Integrate into Your Existing Project</a><br>
+<a href="#7">7. Result File Format</a><br>
+<a href="#8">8. Acknowledgements</a><br>
+<a href="#9">9. Reference</a><br>
   <td border="0">
   <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
@@ -24,7 +24,7 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 ## <a name="1"></a>1. Definition of the REVERIE Task
 As shown in the above figure, a robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.
 
-## 2. Install without Docker
+## <a name="2"></a>2. Install without Docker
 
 **Note** This section prepares everything to run or train our Navigator-Pointer model. If you are familar with R2R and just want to do the REVERIE task, you can jump this section and directly go to xxx.
 **Note** If you have a fresh Ubuntu system, the following install should work well. If not, you can still try this manner but it may screw up your existing project environments. Finnaly, you can try the installation with docker.
@@ -145,7 +145,7 @@ make
 ```
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
-## 3. Install with Docker (not tested)
+## <a name="3"></a>3. Install with Docker (not tested)
 
 ### 3.1. Prerequisites
 
@@ -250,7 +250,7 @@ cd /root/mount/Matterport3DSimulator
 If you get an error like `Error: BadShmSeg (invalid shared segment parameter) 128` you may also need to include `-e="QT_X11_NO_MITSHM=1"` in the docker run command above.
 
 
-## 4. Train and Test the Model
+## <a name="4"></a>4. Train and Test the Model
 + **For training**
 You can download our pre-trained models from [Google Drive](https://drive.google.com/uc?id=16Kj1L3m7QWSffzygnuue084Q9b7IOhsQ&export=download) or [Baidu Yun](). If you want to train by yourself, just run the following command:
 ```
@@ -283,7 +283,7 @@ Now, you should get results in the 'experiment/releaseCheck/results/' folder.
 
 Note that the results might be slightly different due to using different dependant package versions or GPUs. 
 
-## 5. Data Organization of the REVERIE Task
+## <a name="5"></a>5. Data Organization of the REVERIE Task
 Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_train.json, REVERIE_val_seen.json, and REVERIE_val_unseen.json three files, which provide instructions, paths, and target object of each task. In the bbox folder, you get json files that record objects observed at each viewpoint within 3 meters.
 
 + **Example of tarin/val_seen/val_unseen.json file**
@@ -342,11 +342,11 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
   }
 }
 ```
-## 6. Integrate into Your Existing Project
+## <a name="6"></a>6. Integrate into Your Existing Project
 
 The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction.
 
-## 7. Result File Format
+## <a name="7"></a>7. Result File Format
 
 Just add the "'predObjId': int value" pair into your navigation results. That's it!
 
@@ -379,9 +379,9 @@ self.instr_ids += ['%s_%d' % (str(item['id']),i) for i in range(len(item[instrTy
 
 ```
 + To get the Remote Grounding Success Rate in the eval.py file, you need to implement the method to read the predicted object id from your results file. And then compare it against the 'objId' in the \_score_item() function.
-## 8. Acknowledgements
+## <a name="8"></a>8. Acknowledgements
 We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), and [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset.
-## 9. Reference
+## <a name="9"></a>9. Reference
 The REVERIE task and dataset are descriped in:
 ```
 @inproceedings{reverie,

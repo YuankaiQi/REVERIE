@@ -10,7 +10,11 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 [2. Install without Docker](#2-Install-without-Docker)<br>
 [3. Install with Docker](#3-Install-with-Docker-not-tested)<br>
 [4. Train and Test the Model](#4-Train-and-Test-the-Model)<br>
-
+[5. Data Organization of the REVERIE Task](#5-data-organization-of-the-reverie-task)<br>
+[6. Integrate into Your Existing Project](#6-Integrate-into-your-existing-project)<br>
+[7. Result File Format](#7-result-file-format)<br>
+[8. Acknowledgements](#8-acknowledgements)<br>
+[9. Reference](#9-reference)<br>
 ## 1. Definition of the REVERIE Task
 As shown in the above figure, a robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.
 
@@ -332,7 +336,7 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
   }
 }
 ```
-## 6. Integrate into Your Project
+## 6. Integrate into Your Existing Project
 
 The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction.
 

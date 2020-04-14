@@ -5,7 +5,7 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 
 <table border=“0”>
   <tr border="0"><td border="0">
-    <a id="#1">1. Definition of the REVERIE Task]</a>
+    <a href="#1">1. Definition of the REVERIE Task]</a>
 [2. Install without Docker](#2-Install-without-Docker)<br>
 [3. Install with Docker](#3-Install-with-Docker-not-tested)<br>
 [4. Train and Test the Model](#4-Train-and-Test-the-Model)<br>

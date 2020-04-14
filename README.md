@@ -155,7 +155,7 @@ git submodule update --init --recursive
 
 ### 3.3. Dataset Download
 
-See [Section 2.3](#2.3. Dataset Download)
+See [Section 2.3](#2.3-Dataset-Download)
 
 Set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory containing the individual matterport scan directories (17DRP5sb8fy, 2t7WUuJeko7, etc):
 ```

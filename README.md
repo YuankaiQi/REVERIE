@@ -4,7 +4,8 @@
 Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 
 <table border=“0”>
-  <tr border="0"><td border="0">[1. Definition of the REVERIE Task](#1-definition-of-the-reverie-task)<br>
+  <tr border="0"><td border="0">
+    [1. Definition of the REVERIE Task](#1-definition-of-the-reverie-task)
 [2. Install without Docker](#2-Install-without-Docker)<br>
 [3. Install with Docker](#3-Install-with-Docker-not-tested)<br>
 [4. Train and Test the Model](#4-Train-and-Test-the-Model)<br>

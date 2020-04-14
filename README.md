@@ -1,9 +1,9 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
-+ News: The REVERIE Challenge on ACL Workshop 2020 is coming! More details see [here](#https://alvr-workshop.github.io/).
++ News: The REVERIE Challenge on ACL Workshop 2020 is coming! More details see <a href="ttps://alvr-workshop.github.io/">here</a>.
 
 Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 
-<table width="80%" frame=void>
+<table width="80%" frame=void rules=none>
   <tr><td style="border-left-style:none; border-right-style:none;">
     <a href="#1">1. Definition of the REVERIE Task</a><br>
     <a href="#2">2. Install without Docker</a><br>

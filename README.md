@@ -96,7 +96,7 @@ conda install pytorch=0.4.0 cuda92 -c pytorch
 conda install torchvision=0.1.8 -c pytorch
 ```
 
-### 2.6 Compile the Matterport3D Simulator
+### 2.6. Compile the Matterport3D Simulator
 Let us compile the simulator so that we can call its functions in python.
 
 Build OpenGL version using CMake:
@@ -120,7 +120,7 @@ make
 cd ../
 ```
 
-### 2.7 Compile MAttNet3
+### 2.7. Compile MAttNet3
 #### 2.7.1. Compile pytorch-faster-rcnn
 ```
 cd MAttNet3/pyutils/mask-faster-rcnn/lib
@@ -212,8 +212,8 @@ There are three rendering options, which are selected using [cmake](https://cmak
 
 The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).
 
-### 3.6 Compile MAttNet3
-#### 3.6.1. Compile pytorch-faster-rcnn
+### 3.5. Compile MAttNet3
+#### 3.5.1. Compile pytorch-faster-rcnn
 ```
 cd MAttNet3/pyutils/mask-faster-rcnn/lib
 ```
@@ -232,14 +232,14 @@ Compile the CUDA-based `nms` and `roi_pooling` using following simple commands:
 make
 ```
 
-#### 3.6.2. Compile refer
+#### 3.5.2. Compile refer
 ```
 cd ../../refer
 make
 ```
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
-### 3.7 Enter Simulator with X server
+### 3.6. Enter Simulator with X server
 run the docker container while sharing the host's X server and DISPLAY environment variable with the container:
 ```
 xhost +

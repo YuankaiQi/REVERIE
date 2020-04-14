@@ -151,6 +151,7 @@ python tasks/REVERIE/groundingAfterNav.py
 ```
 Now, you should get results in the 'experiment/releaseCheck/results/' folder.
 
+Note that the results might be slightly different due to using different dependant package versions or GPUs. 
 
 ## 5. Data Organization of the REVERIE task
 Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_train.json, REVERIE_val_seen.json, and REVERIE_val_unseen.json three files, which provide instructions, paths, and target object of each task. In the bbox folder, you get json files that record objects observed at each viewpoint within 3 meters.

@@ -167,7 +167,7 @@ To make data loading faster and to reduce memory usage we preprocess the `matter
 
 This will take a while depending on the number of processes used. By default images are downscaled by 50% and 20 processes are used.
 
-### 3.5 Build
+### 3.5 Build Simulator
 
 Build the docker image:
 ```
@@ -197,22 +197,72 @@ There are three rendering options, which are selected using [cmake](https://cmak
 
 The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).
 
+### 3.6 Compile MAttNet3
+#### 3.6.1. Compile pytorch-faster-rcnn
+```
+cd MAttNet3/pyutils/mask-faster-rcnn/lib
+```
+You may need to change the `-arch` version in `Makefile` to compile the cuda code:
+
+  | GPU model  | Architecture |
+  | ------------- | ------------- |
+  | TitanX (Maxwell/Pascal) | sm_52 |
+  | GTX 960M | sm_50 |
+  | GTX 1080 (Ti) | sm_61 |
+  | Grid K520 (AWS g2.2xlarge) | sm_30 |
+  | Tesla K80 (AWS p2.xlarge) | sm_37 |
+
+Compile the CUDA-based `nms` and `roi_pooling` using following simple commands:
+```
+make
+```
+
+#### 3.6.2. Compile refer
+```
+cd ../../refer
+make
+```
+It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
+
+### 3.7 Enter Simulator with X server
+run the docker container while sharing the host's X server and DISPLAY environment variable with the container:
+```
+xhost +
+nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04
+cd /root/mount/Matterport3DSimulator
+```
+
+If you get an error like `Error: BadShmSeg (invalid shared segment parameter) 128` you may also need to include `-e="QT_X11_NO_MITSHM=1"` in the docker run command above.
+
 
 ## 4. Train and Test the model
 + **For training**
-
 You can download our pre-trained models from [Google Drive](https://drive.google.com/uc?id=16Kj1L3m7QWSffzygnuue084Q9b7IOhsQ&export=download) or [Baidu Yun](). If you want to train by yourself, just run the following command:
 ```
 python tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck
 ```
+or 
+```
+python3 tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck #if using docker
+```
+
+
 + **For testing**
 To test the model, you need first obtain navigation results by 
 ```
 python tasks/REVERIE/run_search.py
 ```
-then run the following command to obtain the grounded object
+or 
+```
+python3 tasks/REVERIE/run_search.py #if using docker
+```
+Then run the following command to obtain the grounded object
 ```
 python tasks/REVERIE/groundingAfterNav.py
+```
+or
+```
+python3 tasks/REVERIE/groundingAfterNav.py # if using docker
 ```
 Now, you should get results in the 'experiment/releaseCheck/results/' folder.
 

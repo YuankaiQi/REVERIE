@@ -131,7 +131,47 @@ make
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
 ## 3. Install with Docker (not tested)
-If 
+
+### 3.1. Prerequisites
+
+- Nvidia GPU with driver >= 396.37
+- Install [docker](https://docs.docker.com/engine/installation/)
+- Install [nvidia-docker2.0](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
+- Note: CUDA / CuDNN toolkits do not need to be installed (these are provided by the docker image)
+
+### 3.2 Clone Repo
+
+Clone the Matterport3DSimulator repository:
+```
+# Make sure to clone with --recursive
+git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git
+cd Matterport3DSimulator
+```
+
+If you didn't clone with the `--recursive` flag, then you'll need to manually clone the pybind submodule from the top-level directory:
+```
+git submodule update --init --recursive
+```
+
+### 3.3. Dataset Download
+
+See [Section 2.3](#2.3. Dataset Download)
+
+Set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory containing the individual matterport scan directories (17DRP5sb8fy, 2t7WUuJeko7, etc):
+```
+export MATTERPORT_DATA_DIR=<PATH>
+```
+
+Note that if <PATH> is a remote sshfs mount, you will need to mount it with the `-o allow_root` option or the docker container won't be able to access this directory. 
+
+### Dataset Preprocessing
+
+To make data loading faster and to reduce memory usage we preprocess the `matterport_skybox_images` by downscaling and combining all cube faces into a single image using the following script:
+```
+./scripts/downsize_skybox.py
+```
+
+This will take a while depending on the number of processes used. By default images are downscaled by 50% and 20 processes are used.
 
 ## 4. Train and Test the model
 + **For training**

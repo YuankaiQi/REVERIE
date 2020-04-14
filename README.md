@@ -5,7 +5,7 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 
 <table border=“0”>
   <tr border="0"><td border="0">
-    [1. Definition of the REVERIE Task](#1-definition-of-the-reverie-task)
+    <a id="#1">1. Definition of the REVERIE Task]</a>
 [2. Install without Docker](#2-Install-without-Docker)<br>
 [3. Install with Docker](#3-Install-with-Docker-not-tested)<br>
 [4. Train and Test the Model](#4-Train-and-Test-the-Model)<br>
@@ -21,7 +21,7 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
   </td></tr>
 </table>
 
-## 1. Definition of the REVERIE Task
+## <a name="1"></a>1. Definition of the REVERIE Task
 As shown in the above figure, a robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.
 
 ## 2. Install without Docker

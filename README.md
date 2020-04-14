@@ -256,9 +256,9 @@ You can download our pre-trained models from [Google Drive](https://drive.google
 ```
 python tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck
 ```
-or 
+or (if using docker)
 ```
-python3 tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck #if using docker
+python3 tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck  
 ```
 
 
@@ -267,17 +267,17 @@ To test the model, you need first obtain navigation results by
 ```
 python tasks/REVERIE/run_search.py
 ```
-or 
+or (if using docker)
 ```
-python3 tasks/REVERIE/run_search.py #if using docker
+python3 tasks/REVERIE/run_search.py  
 ```
 Then run the following command to obtain the grounded object
 ```
 python tasks/REVERIE/groundingAfterNav.py
 ```
-or
+or (if using docker)
 ```
-python3 tasks/REVERIE/groundingAfterNav.py # if using docker
+python3 tasks/REVERIE/groundingAfterNav.py 
 ```
 Now, you should get results in the 'experiment/releaseCheck/results/' folder.
 

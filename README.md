@@ -3,7 +3,8 @@
 
 Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 
-<table border=“0”><tr><td>[1. Definition of the REVERIE Task](#1-definition-of-the-reverie-task)<br>
+<table border=“0”>
+  <tr border="0"><td border="0">[1. Definition of the REVERIE Task](#1-definition-of-the-reverie-task)<br>
 [2. Install without Docker](#2-Install-without-Docker)<br>
 [3. Install with Docker](#3-Install-with-Docker-not-tested)<br>
 [4. Train and Test the Model](#4-Train-and-Test-the-Model)<br>
@@ -12,11 +13,12 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 [7. Result File Format](#7-result-file-format)<br>
 [8. Acknowledgements](#8-acknowledgements)<br>
 [9. Reference](#9-reference)<br></td>
-  <td>
+  <td border="0">
   <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
 </div>
-  </td></tr></table>
+  </td></tr>
+</table>
 
 ## 1. Definition of the REVERIE Task
 As shown in the above figure, a robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.

@@ -166,9 +166,7 @@ cd REVERIE
 
 ### 3.3. Dataset Download
 
-See [Section 2.3](#23-Dataset-Download)
-
-Set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory containing the individual matterport scan directories (17DRP5sb8fy, 2t7WUuJeko7, etc):
+First download fiels as [Section 2.3](#23-Dataset-Download). Then set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory containing the individual matterport scan directories (17DRP5sb8fy, 2t7WUuJeko7, etc):
 ```
 export MATTERPORT_DATA_DIR=<PATH>
 ```

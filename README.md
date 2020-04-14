@@ -141,16 +141,10 @@ It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
 ### 3.2 Clone Repo
 
-Clone the Matterport3DSimulator repository:
+Clone the REVERIE repository:
 ```
-# Make sure to clone with --recursive
-git clone --recursive https://github.com/peteanderson80/Matterport3DSimulator.git
-cd Matterport3DSimulator
-```
-
-If you didn't clone with the `--recursive` flag, then you'll need to manually clone the pybind submodule from the top-level directory:
-```
-git submodule update --init --recursive
+git clone https://github.com/YuankaiQi/REVERIE.git
+cd REVERIE
 ```
 
 ### 3.3. Dataset Download
@@ -164,7 +158,7 @@ export MATTERPORT_DATA_DIR=<PATH>
 
 Note that if <PATH> is a remote sshfs mount, you will need to mount it with the `-o allow_root` option or the docker container won't be able to access this directory. 
 
-### Dataset Preprocessing
+### 3.4. Dataset Preprocess
 
 To make data loading faster and to reduce memory usage we preprocess the `matterport_skybox_images` by downscaling and combining all cube faces into a single image using the following script:
 ```
@@ -172,6 +166,37 @@ To make data loading faster and to reduce memory usage we preprocess the `matter
 ```
 
 This will take a while depending on the number of processes used. By default images are downscaled by 50% and 20 processes are used.
+
+### 3.5 Build
+
+Build the docker image:
+```
+docker build -t reverie .
+```
+
+Run the docker container, mounting both the git repo and the dataset:
+```
+nvidia-docker run -it --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator reverie
+```
+
+Now (from inside the docker container), build the simulator and run the unit tests:
+```
+cd /root/mount/Matterport3DSimulator
+mkdir build && cd build
+cmake -DEGL_RENDERING=ON ..
+make
+cd ../
+```
+
+**Note** Rendering Options (GPU, CPU, off-screen)
+
+There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process (by varying line 3 in the build commands immediately above):
+- GPU rendering using OpenGL (requires an X server): `cmake ..` (default)
+- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..`
+- Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..`
+
+The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).
+
 
 ## 4. Train and Test the model
 + **For training**

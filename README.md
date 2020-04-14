@@ -149,14 +149,14 @@ It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
 ## <a name="3"></a>3. Install with Docker (not tested)
 
-### 3.1. Prerequisites
+### Prerequisites
 
 - Nvidia GPU with driver >= 396.37
 - Install [docker](https://docs.docker.com/engine/installation/)
 - Install [nvidia-docker2.0](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
 - Note: CUDA / CuDNN toolkits do not need to be installed (these are provided by the docker image)
 
-### 3.2 Clone Repo
+### 3.1 Clone Repo
 
 Clone the REVERIE repository:
 ```
@@ -164,7 +164,7 @@ git clone https://github.com/YuankaiQi/REVERIE.git
 cd REVERIE
 ```
 
-### 3.3. Dataset Download
+### 3.2. Dataset Download
 
 First download fiels as [Section 2.3](#23-Dataset-Download). Then set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory containing the individual matterport scan directories (17DRP5sb8fy, 2t7WUuJeko7, etc):
 ```
@@ -173,7 +173,7 @@ export MATTERPORT_DATA_DIR=<PATH>
 
 Note that if <PATH> is a remote sshfs mount, you will need to mount it with the `-o allow_root` option or the docker container won't be able to access this directory. 
 
-### 3.4. Dataset Preprocess
+### 3.3. Dataset Preprocess
 
 To make data loading faster and to reduce memory usage we preprocess the `matterport_skybox_images` by downscaling and combining all cube faces into a single image using the following script:
 ```
@@ -182,7 +182,7 @@ To make data loading faster and to reduce memory usage we preprocess the `matter
 
 This will take a while depending on the number of processes used. By default images are downscaled by 50% and 20 processes are used.
 
-### 3.5 Build Simulator
+### 3.4. Build Simulator
 
 Build the docker image:
 ```

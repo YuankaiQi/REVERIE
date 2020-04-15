@@ -1,6 +1,8 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
 
-- ![#f03c15]('')`test`
+<div class="text-red mb-2">
+  .text-red on white
+</div>
 
 <p><b>News</b>: The REVERIE Challenge on ACL Workshop 2020 is coming! More details see <a href="https://alvr-workshop.github.io/">here</a>.</p></font>
 

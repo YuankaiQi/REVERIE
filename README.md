@@ -1,6 +1,8 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
 
-- ![#f03c15]()`<p><b>News</b>: The REVERIE Challenge on ACL Workshop 2020 is coming! More details see <a href="https://alvr-workshop.github.io/">here</a>.</p></font>`
+- ![#f03c15]('')`test`
+
+<p><b>News</b>: The REVERIE Challenge on ACL Workshop 2020 is coming! More details see <a href="https://alvr-workshop.github.io/">here</a>.</p></font>
 
 Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
 

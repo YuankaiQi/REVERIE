@@ -65,6 +65,9 @@ Download the our pre-trained mini MAttnet3 from <a href="https://drive.google.co
 You need to download RGB images and house segmentation files of the [Matterport3D dataset](https://niessner.github.io/Matterport/). The following data types are required:
 - `matterport_skybox_images`
 - `house_segmentations`
+
+The [metadata](https://github.com/niessner/Matterport) is also needed, and put it under the root of your dataset, e.g. Matterport.
+
 Then set the root path, e.g. /home/qyk/dataset/Matterport/, to the 'matterportDir' in trainFast.py.
 
 ### 2.4. Pre-computed Image Features Download

@@ -102,26 +102,29 @@ conda install torchvision=0.2.0 -c pytorch
 ### 2.6. Compile the Matterport3D Simulator
 Let us compile the simulator so that we can call its functions in python.
 
-Build OpenGL version using CMake:
+Build EGL version using CMake ():
 ```bash
 cd build
-cmake ..
+cmake -DEGL_RENDERING=ON ..
 
 # Double-check if CMake find the proper path to your python
 # if not, remove the make files and use the cmake with option below instead
 rm -rf *
-cmake -DPYTHON_EXECUTABLE:FILEPATH=/path/to/your/bin/python ..
+cmake -DEGL_RENDERING=ON -DPYTHON_EXECUTABLE:FILEPATH=/path/to/your/bin/python ..
 
 make
 cd ../
 ```
-Or build headless OSMESA version using CMake:
-```
-mkdir build && cd build
-cmake -DOSMESA_RENDERING=ON ..
-make
-cd ../
-```
+
+**Note** Rendering Options (GPU, CPU, off-screen)
+
+There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process (by varying line 3 in the build commands immediately above):
+
+- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..`
+- Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..`
+- GPU rendering using OpenGL (requires an X server): `cmake ..`
+
+The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).
 
 ### 2.7. Compile MAttNet3
 #### 2.7.1. Compile pytorch-faster-rcnn
@@ -209,9 +212,9 @@ cd ../
 **Note** Rendering Options (GPU, CPU, off-screen)
 
 There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process (by varying line 3 in the build commands immediately above):
-- GPU rendering using OpenGL (requires an X server): `cmake ..` (default)
 - Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..`
 - Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..`
+- GPU rendering using OpenGL (requires an X server): `cmake ..` (default)
 
 The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).
 

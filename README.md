@@ -93,7 +93,7 @@ Check the official [PyTorch website](http://pytorch.org/) for different CUDA ver
 ```
 # with CUDA 92
 conda install pytorch=0.4.0 cuda92 -c pytorch
-conda install torchvision=0.1.8 -c pytorch
+conda install torchvision=0.2.0 -c pytorch
 ```
 
 ### 2.6. Compile the Matterport3D Simulator

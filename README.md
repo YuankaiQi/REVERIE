@@ -66,7 +66,7 @@ You need to download RGB images and house segmentation files of the [Matterport3
 - `matterport_skybox_images`
 - `house_segmentations`
 
-The [metadata](https://github.com/niessner/Matterport) is also needed, and put it under the root of your dataset, e.g. Matterport.
+The [metadata](https://github.com/niessner/Matterport) is also needed, and put it under the root of your dataset, e.g. Matterport/metadata.
 
 Then set the root path, e.g. /home/qyk/dataset/Matterport/, to the 'matterportDir' in trainFast.py.
 

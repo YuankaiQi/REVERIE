@@ -28,8 +28,9 @@ As shown in the above figure, a robot agent is given a natural language instruct
 
 ## <a name="2"></a>2. Install without Docker
 
-**Note** This section prepares everything to run or train our Navigator-Pointer model. If you are familar with R2R and just want to do the REVERIE task, you can skip this section and directly go to <a href="#6">Section 6</a>.
-**Note** If you have a fresh Ubuntu system, the following instruction should work well. If not, it may screw up your existing project environments but you can still have a try. At last, you can try the installation with docker.
+**Note\*** This section prepares everything to run or train our Navigator-Pointer model. If you are familar with R2R and just want to do the REVERIE task, you can skip this section and directly go to <a href="#6">Section 6</a>.
+
+**Note\*\*** If you have a fresh Ubuntu system, the following instruction should work well. If not, it may screw up your existing project environments but you can still have a try. At last, you can try the installation with docker.
 
 ### Prerequisites
 

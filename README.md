@@ -48,7 +48,7 @@ E.g. installing dependencies on Ubuntu:
 ```
 sudo apt-get install libopencv-dev python-opencv freeglut3 freeglut3-dev libglm-dev libjsoncpp-dev doxygen libosmesa6-dev libosmesa6 libglew-dev
 ```
-If still lack of some packages, you can refer to the content in the [Dockerfile](https://github.com/YuankaiQi/REVERIE/blob/master/Dockerfile).
+If still lack some packages, you can refer to the content in the [Dockerfile](https://github.com/YuankaiQi/REVERIE/blob/master/Dockerfile).
 
 ### 2.1. Clone Repo
 Clone the REVERIE repository:

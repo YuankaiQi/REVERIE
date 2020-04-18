@@ -78,7 +78,7 @@ Download and extract the tsv files into the `img_features` directory from [Matte
 ### 2.5. Installation with PyTorch
 Let us get things ready to run experiments.
 
-#### 2.5.1. Create anaconda environment
+#### 2.5.1. Create Anaconda Environment
 ```bash
 # change "rog" (remote object grounding) to any name you prefer
 conda create -n rog python=3.6

@@ -94,8 +94,8 @@ pip install -r tasks/REVERIE/requirements.txt
 
 #### 2.5.3. Install PyTorch
 ```
-# with CUDA 92
-conda install pytorch=0.4.0 cuda92 -c pytorch
+# with CUDA 90
+conda install pytorch=0.4.0 cuda90 -c pytorch
 conda install torchvision=0.2.0 -c pytorch
 ```
 If you use a newer version, you need to modify codes to load pretrained models.

@@ -67,9 +67,15 @@ You need to download RGB images and house segmentation files of the [Matterport3
 - `matterport_skybox_images`
 - `house_segmentations`
 
-The [metadata](https://github.com/niessner/Matterport) is also needed, and put it under the root of your dataset, e.g. Matterport/metadata.
+The [metadata](https://github.com/niessner/Matterport) is also needed, and organise data like below:
+```
+Matterport
+|--v1
+   |--metadata
+   |--scans
+```
 
-Then update the 'matterportDir' setting in trainFast.py.
+Then update the 'matterportDir' to Matterport setting in trainFast.py.
 
 ### 2.4. Pre-computed Image Features Download
 Download and extract the tsv files into the `img_features` directory from [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator). You will only need the ImageNet features to replicate our results. 
@@ -171,7 +177,7 @@ cd REVERIE
 
 ### 3.2. Dataset Download
 
-First download fiels as [Section 2.3](#23-Dataset-Download). Then set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory containing the individual matterport scan directories (17DRP5sb8fy, 2t7WUuJeko7, etc):
+First download fiels as [Section 2.3](#23-Dataset-Download). Then set an environment variable to the location of the dataset, where <PATH> is the full absolute path (not a relative path or symlink) to the directory 'v1':
 ```
 export MATTERPORT_DATA_DIR=<PATH>
 ```
@@ -196,7 +202,7 @@ docker build -t reverie .
 
 Run the docker container, mounting both the git repo and the dataset:
 ```
-nvidia-docker run -it --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator reverie
+nvidia-docker run -it --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1,readonly --volume `pwd`:/root/mount/Matterport3DSimulator reverie
 ```
 
 Now (from inside the docker container), build the simulator and run the unit tests:
@@ -259,29 +265,18 @@ You can download our pre-trained models from [Google Drive](https://drive.google
 ```
 python tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck
 ```
-or (if using docker)
-```
-python3 tasks/REVERIE/trainFast.py --feedback_method sample2step --experiment_name releaseCheck  
-```
-
 
 + **For testing**
 To test the model, you need first obtain navigation results by 
 ```
 python tasks/REVERIE/run_search.py
 ```
-or (if using docker)
-```
-python3 tasks/REVERIE/run_search.py  
-```
+
 Then run the following command to obtain the grounded object
 ```
 python tasks/REVERIE/groundingAfterNav.py
 ```
-or (if using docker)
-```
-python3 tasks/REVERIE/groundingAfterNav.py 
-```
+
 Now, you should get results in the 'experiment/releaseCheck/results/' folder.
 
 Note that the results might be slightly different due to using different dependant package versions or GPUs. 

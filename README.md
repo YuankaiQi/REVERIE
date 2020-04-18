@@ -117,9 +117,7 @@ make
 cd ../
 ```
 
-**Note** Rendering Options (GPU, CPU, off-screen)
-
-There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process (by varying line 3 in the build commands immediately above):
+**Note** There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process:
 
 - Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..`
 - Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..`

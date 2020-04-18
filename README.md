@@ -243,10 +243,10 @@ make
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
 ### 3.6. Enter Simulator with X server
-run the docker container while sharing the host's X server and DISPLAY environment variable with the container:
+Run the docker container while sharing the host's X server and DISPLAY environment variable with the container:
 ```
 xhost +
-nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator mattersim:9.2-devel-ubuntu18.04
+nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator reverie
 cd /root/mount/Matterport3DSimulator
 ```
 

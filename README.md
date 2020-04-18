@@ -380,7 +380,7 @@ Below is a toy sample:
 ```
 
 ## <a name="8"></a>8. Acknowledgements
-We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), and [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). 
+We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). 
 
 ## <a name="9"></a>9. Reference
 The REVERIE task and dataset are descriped in the following [paper](https://arxiv.org/abs/1904.10151):

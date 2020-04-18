@@ -68,7 +68,7 @@ You need to download RGB images and house segmentation files of the [Matterport3
 
 The [metadata](https://github.com/niessner/Matterport) is also needed, and put it under the root of your dataset, e.g. Matterport/metadata.
 
-Then set the root path, e.g. /home/qyk/dataset/Matterport/, to the 'matterportDir' in trainFast.py.
+Then update the 'matterportDir' setting in trainFast.py.
 
 ### 2.4. Pre-computed Image Features Download
 Download and extract the tsv files into the `img_features` directory from [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator). You will only need the ImageNet features to replicate our results. 

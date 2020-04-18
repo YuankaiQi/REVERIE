@@ -6,7 +6,7 @@
 FROM nvidia/cudagl:9.0-devel-ubuntu16.04
 
 # Install a few libraries to support both EGL and OSMESA options
-ENV DEBIAN_FRONTEND=noninteractive
+# ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y python-software-properties software-properties-common
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update && apt-get install -y python3.6

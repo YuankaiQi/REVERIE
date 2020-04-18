@@ -287,18 +287,18 @@ Now, you should get results in the 'experiment/releaseCheck/results/' folder.
 Note that the results might be slightly different due to using different dependant package versions or GPUs. 
 
 ## <a name="5"></a>5. Data Organization of the REVERIE Task
-Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_train.json, REVERIE_val_seen.json, and REVERIE_val_unseen.json three files, which provide instructions, paths, and target object of each task. In the bbox folder, you get json files that record objects observed at each viewpoint within 3 meters.
+In the tasks/REVERIE/data folder, you will have REVERIE_train.json, REVERIE_val_seen.json, REVERIE_val_unseen.json, and REVERIE_test four files, which provide instructions, paths, and target object of each task (except the REVERIE_test file). In the tasks/REVERIE/data/BBox folder, you will have json files that record objects observed at each viewpoint within 3 meters.
 
 + **Example of tarin/val_seen/val_unseen.json file**
 ```
 [
   {
     "distance" : 11.65, # distance to the goal viewpoint
-    "ix": 208,  # Reserved data, not used
+    "ix": 208,  # reserved data, not used
     "scan": "qoiz87JEwZ2", # building ID
     "heading": 4.59, # initial parameters for agent
     "path_id": 1357, # inherited from the R2R dataset
-    "objId": 66, # the unique object id in the current building 
+    "objId": 66, # the unique object ID in the current building 
     "id": "1357_66" # task id
     "instructions":[ # collected instructions for REVERIE
         "Go to the entryway and clean the coffee table", 
@@ -326,12 +326,12 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
 
     File name format: ScanID_ViewpointID.json, e.g.,VzqfbhrpDEA_57fba128d2f042f7a59793c665a3f587.json
 ```
-{ # note that this is in the type of dict not list
+{ # note that this is in the variable type of dict not list
   "57fba128d2f042f7a59793c665a3f587":{ # this key is the id of viewpoint
-    "827":{ # this key is the id of object 
+    "827":{ # the key if object ID
       "name": "toilet",
       "visible_pos":[
-        6,7,8,9,19,20  # these are view index (0~35) which contain the object. Index is consitent with that in  R2R 
+        6,7,8,9,19,20  # view index (0~35) which contain the object. Index is consitent with that in R2R 
         ],
       "bbox2d":[
         [585,382,55,98], # [x,y,w,h] and corresponds to the views listed in the "visible_pos"
@@ -347,8 +347,14 @@ Unzip the data.zip and bbox.zip files. Then in the data folder, you get REVERIE_
 ```
 ## <a name="6"></a>6. Integrate into Your Existing Project
 
-The easiest way to integrate these object infomation into your project is to preload all the objects bounding box/label/visible_pos with the **loadObjProposals()** function as in the eval.py file. Then you can access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction.
+The easiest way to integrate into your project is to preload all the objects bounding_box/label/visible_pos with the **loadObjProposals()** function as in the [eval_release.py](https://github.com/YuankaiQi/REVERIE/blob/master/tasks/REVERIE/eval_release.py) file. Then you are able to access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction.
+**Note**
++ The number of instructions may vary across the dataset, we recommend the following way to index an instruction:
+```
+instrType = "instructions"
+self.instr_ids += ['%s_%d' % (str(item['id']),i) for i in range(len(item[instrType]))]
 
+```
 ## <a name="7"></a>7. Result File Format
 
 Just add the "'predObjId': int value" pair into your navigation results. That's it!
@@ -373,19 +379,11 @@ Below is a toy sample:
 ]
 ```
 
-**Note**
-+ We modify the method to load dataset, see **load_datasets_REVERIE()** in utils.py
-+ The number of instructions may vary across the dataset, we recommend the following way to index an instruction:
-```
-instrType = "instructions"
-self.instr_ids += ['%s_%d' % (str(item['id']),i) for i in range(len(item[instrType]))]
-
-```
-+ To get the Remote Grounding Success Rate in the eval.py file, you need to implement the method to read the predicted object id from your results file. And then compare it against the 'objId' in the \_score_item() function.
 ## <a name="8"></a>8. Acknowledgements
-We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), and [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset.
+We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), and [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). 
+
 ## <a name="9"></a>9. Reference
-The REVERIE task and dataset are descriped in:
+The REVERIE task and dataset are descriped in the following [paper](https://arxiv.org/abs/1904.10151):
 ```
 @inproceedings{reverie,
   title={REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments},

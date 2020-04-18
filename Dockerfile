@@ -12,7 +12,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update && apt-get install -y python3.6
 # switch python version
 RUN rm /usr/bin/python
-RUN ln -s /usr/bin/python3  /usr/bin/python
+RUN ln -s /usr/bin/python3.6  /usr/bin/python
 # 
 RUN apt-get install -y  wget doxygen curl libjsoncpp-dev libepoxy-dev libglm-dev libosmesa6 libosmesa6-dev 
 RUN apt-get install -y  libglew-dev libopencv-dev python-opencv python3-setuptools python3-dev python3-pip python3-tk
@@ -25,7 +25,7 @@ RUN pip3 install opencv-python Cython easydict tensorboardX cffi h5py
 
 # find suitable whl file at https://download.pytorch.org/whl/cu90/torch_stable.html
 RUN wget https://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x86_64.whl
-#RUN pip3 install ./torch-0.4.0-cp36-cp36m-linux_x86_64.whl
+RUN pip3 install ./torch-0.4.0-cp36-cp36m-linux_x86_64.whl
 RUN pip3 install torchvision==0.1.8
 
 

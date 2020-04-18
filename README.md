@@ -52,7 +52,6 @@ sudo apt-get install libopencv-dev python-opencv freeglut3 freeglut3-dev libglm-
 ### 2.1. Clone Repo
 Clone the Self-Monitoring Agent repository:
 ```
-# Make sure to clone with --recursive
 git clone https://github.com/YuankaiQi/REVERIE.git
 cd REVERIE
 ```

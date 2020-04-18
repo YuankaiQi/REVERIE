@@ -72,7 +72,7 @@ Then update the 'matterportDir' setting in trainFast.py.
 
 ### 2.4. Pre-computed Image Features Download
 Download and extract the tsv files into the `img_features` directory from [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator). You will only need the ImageNet features to replicate our results. 
-- [ResNet-152-imagenet features [380K/2.9GB]](https://www.dropbox.com/s/715bbj8yjz32ekf/ResNet-152-imagenet.zip)
+- [ResNet-152-imagenet features [380K/2.9GB]](https://www.dropbox.com/s/o57kxh2mn5rkx4o/ResNet-152-imagenet.zip?dl=1)
 
 ### 2.5. Installation with PyTorch
 Let us get things ready to run experiments.

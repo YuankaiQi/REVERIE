@@ -181,6 +181,7 @@ First download fiels as [Section 2.3](#23-Dataset-Download). Then set an environ
 ```
 export MATTERPORT_DATA_DIR=<PATH>
 ```
+And set the 'matterportDir' parameter to 'data' in the trainFast.py file.
 
 Note that if <PATH> is a remote sshfs mount, you will need to mount it with the `-o allow_root` option or the docker container won't be able to access this directory. 
 
@@ -252,7 +253,7 @@ It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 Run the docker container while sharing the host's X server and DISPLAY environment variable with the container:
 ```
 xhost +
-nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1/scans,readonly --volume `pwd`:/root/mount/Matterport3DSimulator reverie
+nvidia-docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --mount type=bind,source=$MATTERPORT_DATA_DIR,target=/root/mount/Matterport3DSimulator/data/v1,readonly --volume `pwd`:/root/mount/Matterport3DSimulator reverie
 cd /root/mount/Matterport3DSimulator
 ```
 

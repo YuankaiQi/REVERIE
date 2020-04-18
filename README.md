@@ -50,13 +50,13 @@ sudo apt-get install libopencv-dev python-opencv freeglut3 freeglut3-dev libglm-
 ```
 
 ### 2.1. Clone Repo
-Clone the Self-Monitoring Agent repository:
+Clone the REVERIE repository:
 ```
 git clone https://github.com/YuankaiQi/REVERIE.git
 cd REVERIE
 ```
 
-Note that our repository is based on the v0.1 version [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator), which was originally proposed with the Room-to-Roon dataset. 
+Note that our repository is based on the v0.1 version [Matterport3DSimulator](https://github.com/peteanderson80/Matterport3DSimulator), which was originally proposed with the Room-to-Room dataset. 
 
 ### 2.2. MAttNet3 Download
 Download the our pre-trained mini MAttnet3 from <a href="https://drive.google.com/uc?id=1kxyH8kWHiskbv7bRzYzC9rM1lX51K004&export=download" target="_blank">Google Drive</a> or <a href="https://pan.baidu.com/s/1Y5KoAV4FyrFz-KzMBsZmBw" target="_blank">Baidu Yun, code:ophy</a>, which is modified from <a href="https://github.com/lichengunc/MAttNet" target="_blank">MAttNet</a> to support our model training. Unzip it into the MAttnet3 folder. This is used as the our Pointer model.

@@ -48,6 +48,7 @@ E.g. installing dependencies on Ubuntu:
 ```
 sudo apt-get install libopencv-dev python-opencv freeglut3 freeglut3-dev libglm-dev libjsoncpp-dev doxygen libosmesa6-dev libosmesa6 libglew-dev
 ```
+If still lack of some packages, you can refer to the content in the [Dockerfile](https://github.com/YuankaiQi/REVERIE/blob/master/Dockerfile).
 
 ### 2.1. Clone Repo
 Clone the REVERIE repository:
@@ -77,7 +78,7 @@ Download and extract the tsv files into the `img_features` directory from [Matte
 ### 2.5. Installation with PyTorch
 Let us get things ready to run experiments.
 
-#### 2.5.1. Create Anaconda enviorment
+#### 2.5.1. Create anaconda environment
 ```bash
 # change "rog" (remote object grounding) to any name you prefer
 conda create -n rog python=3.6
@@ -86,7 +87,7 @@ Activate the enviorment you just created
 ```
 conda activate rog
 ```
-#### 2.5.2. Install special requirements
+#### 2.5.2. Install Special Requirements
 ```
 pip install -r tasks/REVERIE/requirements.txt
 ```

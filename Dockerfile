@@ -16,7 +16,7 @@ RUN ln -s /usr/bin/python3  /usr/bin/python
 # 
 RUN apt-get install -y  wget doxygen curl libjsoncpp-dev libepoxy-dev libglm-dev libosmesa6 libosmesa6-dev 
 RUN apt-get install -y  libglew-dev libopencv-dev python-opencv python3-setuptools python3-dev python3-pip python3-tk
-
+RUN pip3 install --upgrade pip setuptools wheel
 RUN pip3 install backports.functools-lru-cache==1.4 cycler==0.10.0 decorator==4.1.2 matplotlib==2.1.0 networkx==2.0
 RUN pip3 install numpy==1.18.2 olefile pandas==0.21.0 Pillow>=4.3.0 pyparsing==2.2.0 python-dateutil==2.6.1
 RUN pip3 install pytz==2017.3 pyyaml>=4.2b1 six==1.11.0 scipy==1.2.1 nltk scikit-image

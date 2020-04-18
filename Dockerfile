@@ -25,7 +25,7 @@ RUN pip3 install opencv-python Cython easydict tensorboardX cffi h5py
 
 # find suitable whl file at https://download.pytorch.org/whl/cu90/torch_stable.html
 RUN wget https://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x86_64.whl
-RUN pip3 install torch-0.4.0-cp36-cp36m-linux_x86_64.whl
+RUN pip3 install ./torch-0.4.0-cp36-cp36m-linux_x86_64.whl
 RUN pip3 install torchvision==0.1.8
 
 

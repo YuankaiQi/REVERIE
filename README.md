@@ -30,7 +30,7 @@ As shown in the above figure, a robot agent is given a natural language instruct
 
 **Note\*** This section prepares everything to run or train our Navigator-Pointer model. If you are familar with R2R and just want to do the REVERIE task, you can directly go to <a href="#6">Section 6</a>.
 
-**Note\*\*** If you have a fresh Ubuntu system, the following instruction should work well. If not, it may screw up your existing project environments but you can still have a try. At last, you can try <a href="#3">Section 3. Install with Docker</a>.
+**Note\*\*** If you have a fresh Ubuntu system, the following instruction should work well. If not, it may screw up your existing project environments and recommend to try <a href="#3">Section 3. Install with Docker</a>.
 
 ### Prerequisites
 
@@ -158,11 +158,11 @@ make
 ```
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
-## <a name="3"></a>3. Install with Docker (not tested)
+## <a name="3"></a>3. Install with Docker
 
 ### Prerequisites
 
-- Nvidia GPU with driver >= 396.37
+- Nvidia GPU with driver >= 384
 - Install [docker](https://docs.docker.com/engine/installation/)
 - Install [nvidia-docker2.0](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
 - Note: CUDA / CuDNN toolkits do not need to be installed (these are provided by the docker image)

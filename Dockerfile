@@ -29,7 +29,8 @@ RUN pip3 install opencv-python Cython easydict tensorboardX cffi h5py
 RUN wget https://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x86_64.whl
 RUN pip3 install ./torch-0.4.0-cp36-cp36m-linux_x86_64.whl
 RUN pip3 install torchvision==0.1.8
-
+RUN rm ./torch-0.4.0-cp36-cp36m-linux_x86_64.whl
+CMD [ "python -c", "import nltk; nltk.download('wordnet')" ]
 
 #install latest cmake
 ADD https://cmake.org/files/v3.12/cmake-3.12.2-Linux-x86_64.sh /cmake-3.12.2-Linux-x86_64.sh

@@ -349,8 +349,7 @@ In the tasks/REVERIE/data folder, you will have REVERIE_train.json, REVERIE_val_
 
 The easiest way to integrate into your project is to preload all the objects bounding_box/label/visible_pos with the **loadObjProposals()** function as in the [eval_release.py](https://github.com/YuankaiQi/REVERIE/blob/master/tasks/REVERIE/eval_release.py) file. Then you are able to access visible objects using ScanID_ViewpointID as key. You can use any referring expression methods to get matched objects with an instruction.
 
-**Note**
-+ The number of instructions may vary across the dataset, we recommend the following way to index an instruction:
+**Note** The number of instructions may vary across the dataset, we recommend the following way to index an instruction:
 ```
 instrType = "instructions"
 self.instr_ids += ['%s_%d' % (str(item['id']),i) for i in range(len(item[instrType]))]

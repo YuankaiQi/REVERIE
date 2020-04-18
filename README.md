@@ -103,7 +103,7 @@ If you use a newer version, you need to modify codes to load pretrained models.
 ### 2.6. Compile the Matterport3D Simulator
 Let us compile the simulator so that we can call its functions in python.
 
-Build EGL version using CMake ():
+Build EGL version using CMake:
 ```bash
 cd build
 cmake -DEGL_RENDERING=ON ..

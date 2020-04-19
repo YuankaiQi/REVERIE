@@ -19,7 +19,7 @@ RUN apt autoremove -y
 RUN apt-get update && apt-get install -y python3.6
 # switch python version
 #RUN rm /usr/bin/python
-RUN rm /usr/bin/python3
+#RUN rm /usr/bin/python3
 RUN ln -s /usr/bin/python3.6 /usr/bin/python3
 RUN ln -s /usr/bin/python3.6 /usr/bin/python
 # 

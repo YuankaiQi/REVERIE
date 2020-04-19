@@ -11,11 +11,11 @@ FROM nvidia/cudagl:9.0-devel-ubuntu16.04
 RUN apt-get update && apt-get install -y python-software-properties software-properties-common
 RUN add-apt-repository ppa:deadsnakes/ppa
 
-RUN apt-get remove -y python3.5
-RUN apt-get remove -y --auto-remove python3.5
-RUN apt-get purge -y python3.5
-RUN apt-get purge -y --auto-remove python3.5
-RUN apt autoremove -y
+#RUN apt-get remove -y python3.5
+#RUN apt-get remove -y --auto-remove python3.5
+#RUN apt-get purge -y python3.5
+#RUN apt-get purge -y --auto-remove python3.5
+#RUN apt autoremove -y
 RUN apt-get update && apt-get install -y python3.6
 # switch python version
 RUN rm /usr/bin/python

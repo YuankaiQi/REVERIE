@@ -159,7 +159,7 @@ make
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
 
 ## <a name="3"></a>3. Install with Docker
-
+We find that the success rate is slightly lower that obtained using environments built without docker.
 ### Prerequisites
 
 - Nvidia GPU with driver >= 384

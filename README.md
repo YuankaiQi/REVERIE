@@ -20,7 +20,11 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
   <div align="center">
 <img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />
 </div>
-  </td></tr>
+  </td>
+  </td>
+  <img src="demo.gif" width= "320" height= "190"/>
+  </td>
+  </tr>
 </table>
 
 ## <a name="1"></a>1. Definition of the REVERIE Task

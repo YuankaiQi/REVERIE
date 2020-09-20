@@ -2,7 +2,7 @@
 
 ### :star2: Results of The 1st REVERIE Challenge on ACL Workshop 2020! More details see [here](https://yuankaiqi.github.io/REVERIE_Challenge/index.html).
 
-Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://arxiv.org/abs/1904.10151)
+Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qi_REVERIE_Remote_Embodied_Visual_Referring_Expression_in_Real_Indoor_Environments_CVPR_2020_paper.pdf)
 
 <table width="100%" border=1 frame=void rules=cols>
   <tr><td style="border-left-style:none; border-right-style:none;">

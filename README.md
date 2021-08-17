@@ -220,8 +220,8 @@ cd ../
 ```
 
 **Note** There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process (by varying line 3 in the build commands immediately above):
-- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..`
-- Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..`
+- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..` (Note: EGL_RENDERRING is not supported by v0.1 of Matterport3D Simulator but its latest version supports.)
+- Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..` (Recommended)
 - GPU rendering using OpenGL (requires an X server): `cmake ..` 
 
 The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).

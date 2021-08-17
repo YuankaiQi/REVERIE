@@ -116,12 +116,12 @@ Let us compile the simulator so that we can call its functions in python.
 Build EGL version using CMake:
 ```bash
 cd build
-cmake -DEGL_RENDERING=ON ..
+cmake -DOSMESA_RENDERING=ON ..
 
 # Double-check if CMake find the proper path to your python
 # if not, remove the make files and use the cmake with option below instead
 rm -rf *
-cmake -DEGL_RENDERING=ON -DPYTHON_EXECUTABLE:FILEPATH=/path/to/your/bin/python ..
+cmake -DOSMESA_RENDERING=ON -DPYTHON_EXECUTABLE:FILEPATH=/path/to/your/bin/python ..
 
 make
 cd ../
@@ -129,8 +129,8 @@ cd ../
 
 **Note** There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process:
 
-- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..`
-- Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..`
+- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..` (Note: this is not supported by the v0.1 version of Matterport3D Simulator, but its latest version does.)
+- Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..` (Recommended)
 - GPU rendering using OpenGL (requires an X server): `cmake ..`
 
 The recommended (fast) approach for training agents is using off-screen GPU rendering (EGL).
@@ -220,7 +220,7 @@ cd ../
 ```
 
 **Note** There are three rendering options, which are selected using [cmake](https://cmake.org/) options during the build process (by varying line 3 in the build commands immediately above):
-- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..` (Note: EGL_RENDERRING is not supported by v0.1 of Matterport3D Simulator but its latest version supports.)
+- Off-screen GPU rendering using [EGL](https://www.khronos.org/egl/): `cmake -DEGL_RENDERING=ON ..` (Note: this is not supported by v0.1 of Matterport3D Simulator but its latest version does.)
 - Off-screen CPU rendering using [OSMesa](https://www.mesa3d.org/osmesa.html): `cmake -DOSMESA_RENDERING=ON ..` (Recommended)
 - GPU rendering using OpenGL (requires an X server): `cmake ..` 
 

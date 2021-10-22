@@ -1,6 +1,6 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
 
-### :star2: The 2nd REVERIE Challenge on ICCV Workshop 2021 begins! [here](https://yuankaiqi.github.io/REVERIE_Challenge/index.html)
+### :star2: Results of the 2nd REVERIE Challenge on ICCV Workshop 2021 begins! [here](https://yuankaiqi.github.io/REVERIE_Challenge/index.html)
 ### :star2: Results of The 1st REVERIE Challenge on ACL Workshop 2020! More details see [here](https://yuankaiqi.github.io/REVERIE_Challenge/index_2020.html).
 ### :star2: Leaderboard [here](https://eval.ai/web/challenges/challenge-page/606/leaderboard/1683)
 

@@ -1,7 +1,7 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
 
-### :star2: The 3rd REVERIE Challenge on CSIG is coming soon! New data, new rules, and with total prizes 200,000RMB (~31,500$ USD)
-### :star2: Results of the 2nd REVERIE Challenge on ICCV Workshop 2021 begins! [here](https://yuankaiqi.github.io/REVERIE_Challenge/index.html)
+### :star2: The 3rd REVERIE Challenge on CSIG is [here](https://yuankaiqi.github.io/REVERIE_Challenge/index.html)! New data, new rules, and with total prizes 200,000RMB (~31,500$ USD)
+### :star2: Results of the 2nd REVERIE Challenge on ICCV Workshop 2021! More details see [here](https://yuankaiqi.github.io/REVERIE_Challenge/index_2021.html)
 ### :star2: Results of the 1st REVERIE Challenge on ACL Workshop 2020! More details see [here](https://yuankaiqi.github.io/REVERIE_Challenge/index_2020.html).
 ### :star2: Leaderboard [here](https://eval.ai/web/challenges/challenge-page/606/leaderboard/1683)
 

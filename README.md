@@ -10,6 +10,7 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 <table width="100%" border=1 frame=void rules=cols>
   <tr><td style="border-left-style:none; border-right-style:none;">
     <b>Table of Contents</b><br><br>
+    <a href="#0">0. Updates</a><br>
     <a href="#1">1. Definition of the REVERIE Task</a><br>
     <a href="#2">2. Install without Docker</a><br>
 <a href="#3">3. Install with Docker</a><br>
@@ -27,6 +28,21 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
   </td>
   </tr>
 </table>
+
+## <a name="0"></a>0. Updates
+So far, there are two versions of REVERIE datasets (original version [here](https://github.com/YuankaiQi/REVERIE/tree/master/tasks/REVERIE/data) and the 2nd version [here](https://github.com/YuankaiQi/REVERIE/tree/master/tasks/REVERIE/data_v2)) and there are two technical lines to address the REVERIE task: using our pretrained referring expression grounding model or your private model. 
+
+If you work on the original REVERIE + our pretrained grounding model (MAttNet), we suggest running navigation and grounding codes with two different environments. For your navigation code, you can try our out-of-box docker image: docker pull qykshr/ubuntu:orist or build from [this file](https://github.com/peteanderson80/Matterport3DSimulator/blob/master/Dockerfile) for easy simulator setup. For the modified grounding code (MAttNet), you can refer to the  related instruction in section [2](#2).
+
+If you work on the original REVERIE + your private grounding model, you can use the docker image: docker pull qykshr/ubuntu:orist or build from [this file](https://github.com/peteanderson80/Matterport3DSimulator/blob/master/Dockerfile).
+
+If you work on the 2nd REVERIE + our pretrained grounding model (UNITER), you can use the docker image: docker pull qykshr/ubuntu:orist or build from [this file](https://github.com/peteanderson80/Matterport3DSimulator/blob/master/Dockerfile) for navigation, and see [here](https://github.com/zhaoc5/Grounding-REVERIE-Challenge) for grounding.
+
+If you work on the 2nd REVERIE + your private grounding model, you can use the docker image: docker pull qykshr/ubuntu:orist or build from [this file](https://github.com/peteanderson80/Matterport3DSimulator/blob/master/Dockerfile).
+
+
+If you are participating the 2022 REVERIE Challenge, see the ["How to start"](https://yuankaiqi.github.io/REVERIE_Challenge/challenge_2022.html) section for more start codes.
+
 
 ## <a name="1"></a>1. Definition of the REVERIE Task
 As shown in the above figure, a robot agent is given a natural language instruction referring to a remote object (here in the red bounding box) in a photo-realistic 3D environment. The agent must navigate to an appropriate location and identify the object from multiple distracting candidates. The blue discs indicate nearby navigable viewpoints provided the simulator.

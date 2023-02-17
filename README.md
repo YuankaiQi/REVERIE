@@ -18,8 +18,9 @@ Here are the pre-released code and data for the CVPR 2020 paper [REVERIE: Remote
 <a href="#5">5. Data Organization of the REVERIE Task</a><br>
 <a href="#6">6. Integrate into Your Existing Project</a><br>
 <a href="#7">7. Result File Format</a><br>
-<a href="#8">8. Acknowledgements</a><br>
-<a href="#9">9. Reference</a><br>
+    <a href="#8">8. Evaluation</a><br>
+<a href="#9">9. Acknowledgements</a><br>
+<a href="#10">10. Reference</a><br>
   <td style="border-left-style:none; border-right-style:none;">
   <div align="center">
 <!--<img src="REVERIE_task.png" width = "300" height = "300" alt="REVERIE task example" align=center />-->
@@ -396,10 +397,15 @@ Below is a toy sample:
 ]
 ```
 
-## <a name="8"></a>8. Acknowledgements
+  
+  ## <a name="8"></a>8. Evaluation
+  
+  For the val_seen and val_unseen splits, you can use the [eval_release.py](https://github.com/YuankaiQi/REVERIE/blob/master/tasks/REVERIE/eval_release.py) file to evaluate your results. For the test split, you need to submit your result file to the [evaluation server](https://eval.ai/web/challenges/challenge-page/606/overview).
+  
+## <a name="=9"></a>9. Acknowledgements
 We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). 
-
-## <a name="9"></a>9. Reference
+  
+## <a name="10"></a>10. Reference
 The REVERIE task and dataset are descriped in the following [paper](https://arxiv.org/abs/1904.10151):
 ```
 @inproceedings{reverie,

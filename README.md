@@ -400,7 +400,7 @@ Below is a toy sample:
   
   ## <a name="8"></a>8. Evaluation
   
-  For the val_seen and val_unseen splits, you can use the [eval_release.py](https://github.com/YuankaiQi/REVERIE/blob/master/tasks/REVERIE/eval_release.py) file to evaluate your results. For the test split, you need to submit your result file to the [evaluation server](https://eval.ai/web/challenges/challenge-page/606/overview).
+  For the val_seen and val_unseen splits, you can use the [eval_release.py](https://github.com/YuankaiQi/REVERIE/blob/master/tasks/REVERIE/eval_release.py) file to evaluate your results. For the test split, you need to submit your result file to the evaluation server as illustated [here](https://eval.ai/web/challenges/challenge-page/606/overview).
   
 ## <a name="=9"></a>9. Acknowledgements
 We would like to thank Matterport for allowing the Matterport3D dataset to be used by the academic community. We also thank [Philip Roberts](mailto:philip.roberts@adelaide.edu.au), [Zheng Liu](mailto:marco.liu19@imperial.ac.uk), [Zizheng Pan](mailto:zizheng.pan@student.adelaide.edu.au), and [Sam Bahrami](https://www.roboticvision.org/rv_person/sam-bahrami/) for their great help in building the dataset. This project is supported by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/). 

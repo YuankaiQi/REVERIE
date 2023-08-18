@@ -1,5 +1,7 @@
 # REVERIE: Remote Embodied Visual Referring Expression in Real Indoor Environments
 
+### :star2: [18/8/2023] Continuous REVERIE in Habitat simulator coming soon!
+
 ### :star2: The 3rd REVERIE Challenge on CSIG is [here](https://yuankaiqi.github.io/REVERIE_Challenge/index.html)! New data, new rules, and with total prizes 200,000RMB (~30,000$ USD)
 ### :star2: Results of the 2nd REVERIE Challenge on ICCV Workshop 2021! More details see [here](https://yuankaiqi.github.io/REVERIE_Challenge/index_2021.html)
 ### :star2: Results of the 1st REVERIE Challenge on ACL Workshop 2020! More details see [here](https://yuankaiqi.github.io/REVERIE_Challenge/index_2020.html)

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <center><title>REVERIE Test Split Leaderboard</title></center>
+  <style>
+    table { border-collapse: collapse;  font-family: system-ui, sans-serif; 
+    margin: 0 auto;}
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: center;}
+    tr td {  text-align: left;}
+    thead th {
+      cursor: pointer;
+      user-select: none;
+      background: #f7f7f7;
+      position: relative;
+      white-space: nowrap;
+    }
+    thead th .arrow { margin-left: 6px; font-size: 12px; opacity: 0.8; }
+    thead th[aria-sort="ascending"] .arrow::after { content: "▲"; }
+    thead th[aria-sort="descending"] .arrow::after { content: "▼"; }
+    tbody tr:nth-child(even) { background: #fcfcfc; }
+  </style>
+</head>
+<body>
+
+<h1 style="text-align: center;">REVERIE Test Split Leaderboard</h1>
+<p style="text-align: center;">The performance is calculated using the 2nd version of dataset <a href="https://github.com/YuankaiQi/REVERIE/tree/master/tasks/REVERIE/data_v2">here</a></p>
+
+<table id="myTable">
+  <thead>
+    <tr>
+      <th data-type="text" aria-sort="none">Team <span class="arrow"></span></th>
+      <th data-type="number" aria-sort="none">Nav_Succ <span class="arrow"></span></th>
+      <th data-type="number" aria-sort="none">Nav_OSucc <span class="arrow"></span></th>
+      <th data-type="number" aria-sort="none">Nav_SPL <span class="arrow"></span></th>
+      <th data-type="number" aria-sort="none">Nav_Length <span class="arrow"></span></th>
+      <th data-type="number" aria-sort="none">RGS <span class="arrow"></span></th>
+      <th data-type="number" aria-sort="none">RGSPL <span class="arrow"></span></th>
+      <th data-type="date" aria-sort="none">Date <span class="arrow"></span></th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>HNU_BEV</td><td>59.64</td><td>66.57</td><td>38.98</td><td>24.66</td><td>32.49</td><td>21.48</td><td>01/2026</td></tr>
+<tr><td>HNU_DUET</td><td>60.53</td><td>65.74</td><td>40.74</td><td>23.57</td><td>34.39</td><td>23.26</td><td>11/2026</td></tr>
+<tr><td>RREx-BoT Pre-Explore</td><td>71.99</td><td>78.86</td><td>67.94</td><td>9.59</td><td>42.45</td><td>40.57</td><td>11/2022</td></tr>
+<tr><td>OSMaN (ground-truth objects & map)</td><td>54.69</td><td>62.45</td><td>51.6</td><td>8.69</td><td>34.62</td><td>32.95</td><td>02/2022</td></tr>
+<tr><td>ATENA</td><td>67.32</td><td>70.87</td><td>50.93</td><td>19.93</td><td>41.99</td><td>31.95</td><td>05/2025</td></tr>
+<tr><td>trash</td><td>64.05</td><td>70.12</td><td>45.72</td><td>22.58</td><td>39.81</td><td>28.13</td><td>10/2025</td></tr>
+<tr><td>VinciG</td><td>64.83</td><td>69.73</td><td>43.95</td><td>24.31</td><td>41.46</td><td>28.06</td><td>11/2024</td></tr>
+<tr><td>little_trash</td><td>63.35</td><td>67.66</td><td>45.37</td><td>22.13</td><td>39.24</td><td>27.97</td><td>10/2025</td></tr>
+<tr><td>hahasss</td><td>65.07</td><td>70.51</td><td>45.27</td><td>23.15</td><td>40.19</td><td>27.87</td><td>10/2025</td></tr>
+<tr><td>SID-VLN</td><td>67.66</td><td>71.83</td><td>51.03</td><td>20.13</td><td>36.78</td><td>27.88</td><td>09/2025</td></tr>
+<tr><td>x2 (SUSA)</td><td>59.85</td><td>65.43</td><td>45.42</td><td>17.78</td><td>36.67</td><td>27.73</td><td>10/2024</td></tr>
+<tr><td>mxxx</td><td>64.96</td><td>70.43</td><td>44.08</td><td>22.85</td><td>41.02</td><td>27.64</td><td>01/2026</td></tr>
+<tr><td>SRVLN</td><td>67.27</td><td>71.29</td><td>51.9</td><td>18.57</td><td>36.08</td><td>27.49</td><td>09/2024</td></tr>
+<tr><td>lhvln</td><td>64.06</td><td>69.37</td><td>43.24</td><td>25.42</td><td>40.38</td><td>27.31</td><td>07/2025</td></tr>
+<tr><td>lhvln1</td><td>63.79</td><td>69.04</td><td>43.13</td><td>25.52</td><td>40.3</td><td>27.3</td><td>08/2025</td></tr>
+<tr><td>zhy (GOAT)</td><td>61.75</td><td>66.31</td><td>43.12</td><td>23.11</td><td>38.79</td><td>27.07</td><td>10/2023</td></tr>
+<tr><td>WQE (EKG)</td><td>63.53</td><td>68.59</td><td>42.76</td><td>25.55</td><td>40.15</td><td>26.9</td><td>12/2025</td></tr>
+<tr><td>Q-Agent</td><td>60.92</td><td>65.82</td><td>45.58</td><td>18.02</td><td>36.04</td><td>26.89</td><td>09/2025</td></tr>
+<tr><td>dch123</td><td>65.38</td><td>72.05</td><td>41.66</td><td>26.51</td><td>39.53</td><td>25.55</td><td>09/2025</td></tr>
+<tr><td>bowen666</td><td>60.24</td><td>66.13</td><td>43.7</td><td>17.6</td><td>35.55</td><td>25.26</td><td>10/2023</td></tr>
+<tr><td>zxs-hfut (MBA-VP(zxs))</td><td>57.58</td><td>62.21</td><td>43.45</td><td>17.9</td><td>34.1</td><td>25.32</td><td>06/2024</td></tr>
+<tr><td>yds</td><td>61.75</td><td>67.04</td><td>43.85</td><td>19.97</td><td>35.12</td><td>24.98</td><td>09/2025</td></tr>
+<tr><td>tpxbps</td><td>59.16</td><td>63.15</td><td>44.23</td><td>19.01</td><td>33.38</td><td>24.93</td><td>02/2024</td></tr>
+<tr><td>PD</td><td>61.39</td><td>66.6</td><td>44.99</td><td>21.14</td><td>33.79</td><td>24.89</td><td>08/2022</td></tr>
+<tr><td>PLT</td><td>61.64</td><td>66.73</td><td>43.4</td><td>23.33</td><td>34.98</td><td>24.61</td><td>10/2025</td></tr>
+<tr><td>zzzwwwwttt</td><td>61.1</td><td>65.76</td><td>44.34</td><td>19.59</td><td>33.85</td><td>24.7</td><td>01/2026</td></tr>
+<tr><td>ANewbie (LAD)</td><td>62.86</td><td>67.82</td><td>42.38</td><td>24.46</td><td>35.87</td><td>24.55</td><td>08/2022</td></tr>
+<tr><td>DOPE</td><td>63.15</td><td>67.5</td><td>43.46</td><td>23.22</td><td>35.64</td><td>24.49</td><td>05/2025</td></tr>
+<tr><td>FEEDTTA_1 (FeedTTA (DUET))</td><td>60.17</td><td>66.81</td><td>41.86</td><td>19.54</td><td>35.04</td><td>24.29</td><td>01/2025</td></tr>
+<tr><td>dddddddd</td><td>62.66</td><td>69.68</td><td>42.77</td><td>22.6</td><td>35.04</td><td>24.07</td><td>12/2025</td></tr>
+<tr><td>DOPE</td><td>63.15</td><td>67.5</td><td>43.46</td><td>23.22</td><td>35.64</td><td>24.49</td><td>05/2025</td></tr>
+<tr><td>KUSAIT</td><td>59.0</td><td>63.95</td><td>41.91</td><td>18.49</td><td>33.2</td><td>23.87</td><td>05/2025</td></tr>
+<tr><td>test61 (DUET+RES)</td><td>62.86</td><td>67.92</td><td>42.11</td><td>24.01</td><td>35.84</td><td>23.98</td><td>07/2022</td></tr>
+<tr><td>Lizixiaoboluo</td><td>59.05</td><td>62.97</td><td>42.71</td><td>19.98</td><td>32.76</td><td>23.67</td><td>11/2024</td></tr>
+<tr><td>GMap (GridMM)</td><td>58.94</td><td>65.93</td><td>40.22</td><td>19.94</td><td>35.27</td><td>23.71</td><td>02/2023</td></tr>
+<tr><td>VLN-PE</td><td>56.28</td><td>62.78</td><td>40.81</td><td>18.42</td><td>32.85</td><td>23.64</td><td>12/2024</td></tr>
+<tr><td>ATENA-NeurIPS25</td><td>58.2</td><td>62.86</td><td>41.99</td><td>17.72</td><td>32.54</td><td>23.58</td><td>05/2025</td></tr>
+<tr><td>VP</td><td>58.81</td><td>63.93</td><td>41.85</td><td>18.44</td><td>33.27</td><td>23.59</td><td>09/2023</td></tr>
+<tr><td>SMIL</td><td>63.83</td><td>69.56</td><td>44.13</td><td>21.42</td><td>33.66</td><td>23.61</td><td>11/2025</td></tr>
+<tr><td>wzm</td><td>57.28</td><td>62.73</td><td>40.9</td><td>17.83</td><td>33.19</td><td>23.4</td><td>07/2023</td></tr>
+<tr><td>anonymous_</td><td>59.54</td><td>63.79</td><td>42.84</td><td>19.86</td><td>32.73</td><td>23.53</td><td>05/2023</td></tr>
+<tr><td>ACK</td><td>58.66</td><td>63.67</td><td>40.97</td><td>20.58</td><td>33.24</td><td>23.45</td><td>08/2023</td></tr>
+<tr><td>ICT-VLN-d</td><td>58.27</td><td>64.13</td><td>41.32</td><td>18.41</td><td>32.93</td><td>23.32</td><td>10/2022</td></tr>
+<tr><td>ACK</td><td>58.66</td><td>63.67</td><td>40.97</td><td>20.58</td><td>33.24</td><td>23.45</td><td>08/2023</td></tr>
+<tr><td>tj (CausalVLN)</td><td>64.89</td><td>71.42</td><td>41.52</td><td>25.95</td><td>35.92</td><td>23.38</td><td>05/2023</td></tr>
+<tr><td>Vln-future</td><td>57.1</td><td>63.13</td><td>40.98</td><td>18.56</td><td>32.68</td><td>23.15</td><td>08/2023</td></tr>
+<tr><td>kuaicv</td><td>55.86</td><td>60.5</td><td>40.62</td><td>17.4</td><td>31.62</td><td>23.15</td><td>05/2025</td></tr>
+<tr><td>hj2</td><td>56.14</td><td>60.89</td><td>40.79</td><td>17.03</td><td>31.33</td><td>23.04</td><td>04/2025</td></tr>
+<tr><td>start_rookie</td><td>58.53</td><td>63.4</td><td>40.82</td><td>18.85</td><td>33.35</td><td>23.14</td><td>11/2022</td></tr>
+<tr><td>Reborn</td><td>55.44</td><td>59.67</td><td>40.41</td><td>17.18</td><td>32.03</td><td>23.09</td><td>02/2022</td></tr>
+<tr><td>yfb1 (new relations)</td><td>58.14</td><td>64.63</td><td>39.98</td><td>19.79</td><td>34.05</td><td>23.17</td><td>06/2023</td></tr>
+<tr><td>Yiheiyeye</td><td>61.85</td><td>66.59</td><td>40.9</td><td>23.36</td><td>34.28</td><td>22.99</td><td>11/2024</td></tr>
+<tr><td>Early To Bed</td><td>62.86</td><td>68.8</td><td>43.59</td><td>23.41</td><td>32.83</td><td>22.99</td><td>03/2023</td></tr>
+<tr><td>sunshade</td><td>57.81</td><td>64.68</td><td>39.33</td><td>20.29</td><td>34.2</td><td>22.97</td><td>07/2023</td></tr>
+<tr><td>hj1</td><td>55.55</td><td>59.91</td><td>40.24</td><td>17.37</td><td>31.15</td><td>22.74</td><td>04/2025</td></tr>
+<tr><td>HOC</td><td>60.94</td><td>65.92</td><td>40.92</td><td>21.91</td><td>33.43</td><td>22.75</td><td>08/2022</td></tr>
+<tr><td>cpc</td><td>56.69</td><td>64.11</td><td>40.13</td><td>19.66</td><td>32.13</td><td>22.59</td><td>12/2024</td></tr>
+<tr><td>cake (OCM)</td><td>62.27</td><td>68.46</td><td>42.32</td><td>22.79</td><td>33.54</td><td>22.67</td><td>02/2023</td></tr>
+<tr><td>lzqcome</td><td>58.09</td><td>64.73</td><td>40.39</td><td>19.86</td><td>32.89</td><td>22.57</td><td>07/2023</td></tr>
+<tr><td>BEVBert (ICCV'23)</td><td>59.72</td><td>64.62</td><td>40.95</td><td>21.97</td><td>32.37</td><td>22.35</td><td>10/2022</td></tr>
+<tr><td>DUET-baseline</td><td>55.96</td><td>59.77</td><td>40.69</td><td>17.27</td><td>30.66</td><td>22.33</td><td>10/2023</td></tr>
+<tr><td>DUET (CVPR22)</td><td>58.94</td><td>63.77</td><td>40.29</td><td>21.32</td><td>32.18</td><td>22.26</td><td>11/2021</td></tr>
+<tr><td>naviLLM (NaviLLM w/o pretrain)</td><td>55.11</td><td>64.1</td><td>42.99</td><td>16.46</td><td>23.03</td><td>18.34</td><td>11/2023</td></tr>
+<tr><td>YusenPeng (DPO-NaviLLM baseline-0)</td><td>51.95</td><td>59.64</td><td>41.6</td><td>15.22</td><td>19.99</td><td>16.12</td><td>01/2026</td></tr>
+<tr><td>zhanganlong</td><td>51.9</td><td>59.49</td><td>41.45</td><td>15.22</td><td>19.97</td><td>16.14</td><td>12/2024</td></tr>
+<tr><td>damm1</td><td>43.46</td><td>47.43</td><td>37.93</td><td>13.32</td><td>17.82</td><td>15.74</td><td>05/2022</td></tr>
+<tr><td>starry (HOP)</td><td>34.34</td><td>41.37</td><td>27.31</td><td>16.45</td><td>17.89</td><td>14.55</td><td>11/2021</td></tr>
+<tr><td>1637</td><td>35.38</td><td>43.85</td><td>25.16</td><td>13.67</td><td>19.86</td><td>14.32</td><td>01/2021</td></tr>
+<tr><td>Wow</td><td>44.97</td><td>50.28</td><td>30.91</td><td>17.53</td><td>19.63</td><td>13.78</td><td>07/2022</td></tr>
+<tr><td>Ragdoll-P (init. PREVALENT)</td><td>34.34</td><td>41.0</td><td>27.1</td><td>15.95</td><td>16.52</td><td>13.54</td><td>03/2021</td></tr>
+<tr><td>WILLOW (Airbert)</td><td>35.24</td><td>43.33</td><td>26.69</td><td>17.92</td><td>16.98</td><td>13.4</td><td>03/2021</td></tr>
+<tr><td>PANDA-TingLiu</td><td>33.45</td><td>41.8</td><td>24.17</td><td>18.28</td><td>17.24</td><td>12.94</td><td>01/2023</td></tr>
+<tr><td>Ragdoll-O (init. OSCAR)</td><td>28.76</td><td>34.54</td><td>22.65</td><td>14.91</td><td>12.71</td><td>10.03</td><td>03/2021</td></tr>
+<tr><td>SIA</td><td>37.03</td><td>50.91</td><td>17.35</td><td>48.57</td><td>19.19</td><td>9.33</td><td>11/2020</td></tr>
+<tr><td>Ragdoll-R (no init. OSCAR)</td><td>23.26</td><td>28.53</td><td>18.9</td><td>14.11</td><td>8.76</td><td>7.25</td><td>03/2021</td></tr>
+<tr><td>CoNav</td><td>53.48</td><td>58.92</td><td>43.0</td><td>14.28</td><td>7.71</td><td>6.44</td><td>05/2025</td></tr>
+<tr><td>eaq</td><td>28.17</td><td>42.56</td><td>14.94</td><td>36.61</td><td>11.47</td><td>6.2</td><td>06/2020</td></tr>
+<tr><td>REVERIE_Baseline</td><td>27.95</td><td>41.44</td><td>15.28</td><td>35.34</td><td>11.34</td><td>6.34</td><td>04/2020</td></tr>
+<tr><td>RREx-BoT</td><td>72.01</td><td>100.0</td><td>4.81</td><td>178.38</td><td>42.46</td><td>2.81</td><td>10/2022</td></tr>
+<tr><td>iiau123</td><td>37.86</td><td>45.64</td><td>28.12</td><td>15.34</td><td>0.0</td><td>0.0</td><td>12/2025</td></tr>
+<tr><td>VLN-DPLN</td><td>60.37</td><td>69.12</td><td>40.57</td><td>24.41</td><td>28.06</td><td>18.92</td><td>10/2025</td></tr>
+<tr><td>orthogonalkk</td><td>55.78</td><td>60.19</td><td>38.93</td><td>18.29</td><td>31.88</td><td>22.31</td><td>10/2025</td></tr>
+<tr><td>teamrl</td><td>58.92</td><td>63.74</td><td>40.29</td><td>21.33</td><td>32.16</td><td>22.26</td><td>11/2022</td></tr>
+  </tbody>
+</table>
+
+<script>
+  const table = document.getElementById("myTable");
+  const thead = table.tHead;
+  const tbody = table.tBodies[0];
+  const headers = Array.from(thead.rows[0].cells);
+
+  // function parseValue(text, type) {
+  //   const t = text.trim();
+  //   if (type === "number") {
+  //     const n = Number(t.replace(/,/g, ""));
+  //     return Number.isFinite(n) ? n : NaN;
+  //   }
+  //   if (type === "date") {
+  //     // 支持 YYYY-MM-DD / YYYY/MM/DD 等
+  //     const ms = Date.parse(t.replace(/\./g, "-").replace(/\//g, "-"));
+  //     return Number.isFinite(ms) ? ms : NaN;
+  //   }
+  //   // text
+  //   return t.toLowerCase();
+  // }
+  function parseValue(text, type) {
+  const t = (text ?? "").trim();
+
+  if (type === "number") {
+    const n = Number(t.replace(/,/g, ""));
+    return Number.isFinite(n) ? n : NaN;
+  }
+
+  if (type === "date") {
+    // 1) YYYY-MM-DD 或 YYYY/MM/DD
+    let m = t.match(/^(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})$/);
+    if (m) {
+      const y = +m[1], mo = +m[2], d = +m[3];
+      return Date.UTC(y, mo - 1, d);
+    }
+
+    // 2) MM/YYYY (比如 09/2025)
+    m = t.match(/^(\d{1,2})\/(\d{4})$/);
+    if (m) {
+      const mo = +m[1], y = +m[2];
+      return Date.UTC(y, mo - 1, 1); // 统一当作当月1号
+    }
+
+    // 3) YYYY-MM 或 YYYY/MM
+    m = t.match(/^(\d{4})[-\/](\d{1,2})$/);
+    if (m) {
+      const y = +m[1], mo = +m[2];
+      return Date.UTC(y, mo - 1, 1);
+    }
+
+    // 兜底：最后再尝试浏览器解析（不保证所有格式）
+    const ms = Date.parse(t);
+    return Number.isFinite(ms) ? ms : NaN;
+  }
+
+  // text
+  return t.toLowerCase();
+}
+
+
+  function setSortState(clickedTh, dir) {
+    headers.forEach(th => {
+      if (th === clickedTh) {
+        th.setAttribute("aria-sort", dir);
+      } else {
+        th.setAttribute("aria-sort", "none");
+      }
+    });
+  }
+
+  function sortByColumn(colIndex, type, direction) {
+    const rows = Array.from(tbody.rows);
+
+    rows.sort((a, b) => {
+      const aText = a.cells[colIndex].textContent ?? "";
+      const bText = b.cells[colIndex].textContent ?? "";
+      const av = parseValue(aText, type);
+      const bv = parseValue(bText, type);
+
+      // 处理 NaN：放到最后
+      const aNaN = (typeof av === "number" && Number.isNaN(av));
+      const bNaN = (typeof bv === "number" && Number.isNaN(bv));
+      if (aNaN && bNaN) return 0;
+      if (aNaN) return 1;
+      if (bNaN) return -1;
+
+      if (av < bv) return direction === "ascending" ? -1 : 1;
+      if (av > bv) return direction === "ascending" ? 1 : -1;
+      return 0;
+    });
+
+    // 重排 DOM
+    const frag = document.createDocumentFragment();
+    rows.forEach(r => frag.appendChild(r));
+    tbody.appendChild(frag);
+  }
+
+  headers.forEach((th, i) => {
+    th.addEventListener("click", () => {
+      const type = th.dataset.type || "text";
+      const cur = th.getAttribute("aria-sort");
+      const next = cur === "ascending" ? "descending" : "ascending";
+
+      setSortState(th, next);
+      sortByColumn(i, type, next);
+    });
+  });
+
+  // ===== 默认排序设置 =====
+  const defaultColumnIndex = 6;     // 从 0 开始：0=姓名，1=分数，2=日期
+  const defaultDirection = "descending"; // "ascending" | "descending"
+
+  const defaultTh = headers[defaultColumnIndex];
+  setSortState(defaultTh, defaultDirection);
+  sortByColumn(defaultColumnIndex, defaultTh.dataset.type, defaultDirection);
+</script>
+
+</body>
+</html>
